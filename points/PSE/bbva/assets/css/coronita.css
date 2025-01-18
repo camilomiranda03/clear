@@ -1,0 +1,8171 @@
+﻿.text-white {
+  color: #fff !important
+}
+
+.bg-white {
+  background-color: #fff !important
+}
+
+.border-white {
+  border-color: #fff !important
+}
+
+.border-top-white {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #fff !important
+}
+
+.border-bottom-white {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #fff !important
+}
+
+.border-left-white {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fff !important
+}
+
+.border-right-white {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #fff !important
+}
+
+.white::before {
+  background-color: #FFF
+}
+
+.fill-white::after {
+  background-color: #FFF !important;
+  fill: #FFF !important
+}
+
+.stroke-white {
+  stroke: #fff
+}
+
+.hover-bg-white:hover {
+  background: #fff !important
+}
+
+.hover-text-white:hover {
+  color: #fff !important
+}
+
+.text-black {
+  color: #000 !important
+}
+
+.bg-black {
+  background-color: #000 !important
+}
+
+.border-black {
+  border-color: #000 !important
+}
+
+.border-top-black {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #000 !important
+}
+
+.border-bottom-black {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #000 !important
+}
+
+.border-left-black {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #000 !important
+}
+
+.border-right-black {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #000 !important
+}
+
+.black::before {
+  background-color: #000
+}
+
+.fill-black::after {
+  background-color: #000 !important;
+  fill: #000 !important
+}
+
+.stroke-black {
+  stroke: #000
+}
+
+.hover-bg-black:hover {
+  background: #000 !important
+}
+
+.hover-text-black:hover {
+  color: #000 !important
+}
+
+.text-brand-primary {
+  color: #072146 !important
+}
+
+.bg-brand-primary {
+  background-color: #072146 !important
+}
+
+.border-brand-primary {
+  border-color: #072146 !important
+}
+
+.border-top-brand-primary {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #072146 !important
+}
+
+.border-bottom-brand-primary {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #072146 !important
+}
+
+.border-left-brand-primary {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #072146 !important
+}
+
+.border-right-brand-primary {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #072146 !important
+}
+
+.brand-primary::before {
+  background-color: #072146
+}
+
+.fill-brand-primary::after {
+  background-color: #072146 !important;
+  fill: #072146 !important
+}
+
+.stroke-brand-primary {
+  stroke: #072146
+}
+
+.hover-bg-brand-primary:hover {
+  background: #072146 !important
+}
+
+.hover-text-brand-primary:hover {
+  color: #072146 !important
+}
+
+.text-brand-secundary {
+  color: #004481 !important
+}
+
+.bg-brand-secundary {
+  background-color: #004481 !important
+}
+
+.border-brand-secundary {
+  border-color: #004481 !important
+}
+
+.border-top-brand-secundary {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #004481 !important
+}
+
+.border-bottom-brand-secundary {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #004481 !important
+}
+
+.border-left-brand-secundary {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #004481 !important
+}
+
+.border-right-brand-secundary {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #004481 !important
+}
+
+.brand-secundary::before {
+  background-color: #004481
+}
+
+.fill-brand-secundary::after {
+  background-color: #004481 !important;
+  fill: #004481 !important
+}
+
+.stroke-brand-secundary {
+  stroke: #004481
+}
+
+.hover-bg-brand-secundary:hover {
+  background: #004481 !important
+}
+
+.hover-text-brand-secundary:hover {
+  color: #004481 !important
+}
+
+.text-brand-secundary--white {
+  color: #1464a5 !important
+}
+
+.bg-brand-secundary--white {
+  background-color: #1464a5 !important
+}
+
+.border-brand-secundary--white {
+  border-color: #1464a5 !important
+}
+
+.border-top-brand-secundary--white {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #1464a5 !important
+}
+
+.border-bottom-brand-secundary--white {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #1464a5 !important
+}
+
+.border-left-brand-secundary--white {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #1464a5 !important
+}
+
+.border-right-brand-secundary--white {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #1464a5 !important
+}
+
+.brand-secundary--white::before {
+  background-color: #1464A5
+}
+
+.fill-brand-secundary--white::after {
+  background-color: #1464A5 !important;
+  fill: #1464A5 !important
+}
+
+.stroke-brand-secundary--white {
+  stroke: #1464a5
+}
+
+.hover-bg-brand-secundary--white:hover {
+  background: #1464a5 !important
+}
+
+.hover-text-brand-secundary--white:hover {
+  color: #1464a5 !important
+}
+
+.text-brand-secundary--dark {
+  color: #043263 !important
+}
+
+.bg-brand-secundary--dark {
+  background-color: #043263 !important
+}
+
+.border-brand-secundary--dark {
+  border-color: #043263 !important
+}
+
+.border-top-brand-secundary--dark {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #043263 !important
+}
+
+.border-bottom-brand-secundary--dark {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #043263 !important
+}
+
+.border-left-brand-secundary--dark {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #043263 !important
+}
+
+.border-right-brand-secundary--dark {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #043263 !important
+}
+
+.brand-secundary--dark::before {
+  background-color: #043263
+}
+
+.fill-brand-secundary--dark::after {
+  background-color: #043263 !important;
+  fill: #043263 !important
+}
+
+.stroke-brand-secundary--dark {
+  stroke: #043263
+}
+
+.hover-bg-brand-secundary--dark:hover {
+  background: #043263 !important
+}
+
+.hover-text-brand-secundary--dark:hover {
+  color: #043263 !important
+}
+
+.text-brand-tertiary {
+  color: #1973b8 !important
+}
+
+.bg-brand-tertiary {
+  background-color: #1973b8 !important
+}
+
+.border-brand-tertiary {
+  border-color: #1973b8 !important
+}
+
+.border-top-brand-tertiary {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #1973b8 !important
+}
+
+.border-bottom-brand-tertiary {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #1973b8 !important
+}
+
+.border-left-brand-tertiary {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #1973b8 !important
+}
+
+.border-right-brand-tertiary {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #1973b8 !important
+}
+
+.brand-tertiary::before {
+  background-color: #1973B8
+}
+
+.fill-brand-tertiary::after {
+  background-color: #1973B8 !important;
+  fill: #1973B8 !important
+}
+
+.stroke-brand-tertiary {
+  stroke: #1973b8
+}
+
+.hover-bg-brand-tertiary:hover {
+  background: #1973b8 !important
+}
+
+.hover-text-brand-tertiary:hover {
+  color: #1973b8 !important
+}
+
+.text-brand-tertiary--white {
+  color: #49a5e6 !important
+}
+
+.bg-brand-tertiary--white {
+  background-color: #49a5e6 !important
+}
+
+.border-brand-tertiary--white {
+  border-color: #49a5e6 !important
+}
+
+.border-top-brand-tertiary--white {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #49a5e6 !important
+}
+
+.border-bottom-brand-tertiary--white {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #49a5e6 !important
+}
+
+.border-left-brand-tertiary--white {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #49a5e6 !important
+}
+
+.border-right-brand-tertiary--white {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #49a5e6 !important
+}
+
+.brand-tertiary--white::before {
+  background-color: #49A5E6
+}
+
+.fill-brand-tertiary--white::after {
+  background-color: #49A5E6 !important;
+  fill: #49A5E6 !important
+}
+
+.stroke-brand-tertiary--white {
+  stroke: #49a5e6
+}
+
+.hover-bg-brand-tertiary--white:hover {
+  background: #49a5e6 !important
+}
+
+.hover-text-brand-tertiary--white:hover {
+  color: #49a5e6 !important
+}
+
+.text-brand-tertiary--dark {
+  color: #1464a5 !important
+}
+
+.bg-brand-tertiary--dark {
+  background-color: #1464a5 !important
+}
+
+.border-brand-tertiary--dark {
+  border-color: #1464a5 !important
+}
+
+.border-top-brand-tertiary--dark {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #1464a5 !important
+}
+
+.border-bottom-brand-tertiary--dark {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #1464a5 !important
+}
+
+.border-left-brand-tertiary--dark {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #1464a5 !important
+}
+
+.border-right-brand-tertiary--dark {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #1464a5 !important
+}
+
+.brand-tertiary--dark::before {
+  background-color: #1464A5
+}
+
+.fill-brand-tertiary--dark::after {
+  background-color: #1464A5 !important;
+  fill: #1464A5 !important
+}
+
+.stroke-brand-tertiary--dark {
+  stroke: #1464a5
+}
+
+.hover-bg-brand-tertiary--dark:hover {
+  background: #1464a5 !important
+}
+
+.hover-text-brand-tertiary--dark:hover {
+  color: #1464a5 !important
+}
+
+.text-blue-light {
+  color: #5bbeff !important
+}
+
+.bg-blue-light {
+  background-color: #5bbeff !important
+}
+
+.border-blue-light {
+  border-color: #5bbeff !important
+}
+
+.border-top-blue-light {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #5bbeff !important
+}
+
+.border-bottom-blue-light {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #5bbeff !important
+}
+
+.border-left-blue-light {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #5bbeff !important
+}
+
+.border-right-blue-light {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #5bbeff !important
+}
+
+.blue-light::before {
+  background-color: #5BBEFF
+}
+
+.fill-blue-light::after {
+  background-color: #5BBEFF !important;
+  fill: #5BBEFF !important
+}
+
+.stroke-blue-light {
+  stroke: #5bbeff
+}
+
+.hover-bg-blue-light:hover {
+  background: #5bbeff !important
+}
+
+.hover-text-blue-light:hover {
+  color: #5bbeff !important
+}
+
+.text-brand-primary--white-light {
+  color: #d4edfc !important
+}
+
+.bg-brand-primary--white-light {
+  background-color: #d4edfc !important
+}
+
+.border-brand-primary--white-light {
+  border-color: #d4edfc !important
+}
+
+.border-top-brand-primary--white-light {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d4edfc !important
+}
+
+.border-bottom-brand-primary--white-light {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d4edfc !important
+}
+
+.border-left-brand-primary--white-light {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d4edfc !important
+}
+
+.border-right-brand-primary--white-light {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d4edfc !important
+}
+
+.brand-primary--white-light::before {
+  background-color: #D4EDFC
+}
+
+.fill-brand-primary--white-light::after {
+  background-color: #D4EDFC !important;
+  fill: #D4EDFC !important
+}
+
+.stroke-brand-primary--white-light {
+  stroke: #d4edfc
+}
+
+.hover-bg-brand-primary--white-light:hover {
+  background: #d4edfc !important
+}
+
+.hover-text-brand-primary--white-light:hover {
+  color: #d4edfc !important
+}
+
+.text-blue-dark-light {
+  color: #49a5e6 !important
+}
+
+.bg-blue-dark-light {
+  background-color: #49a5e6 !important
+}
+
+.border-blue-dark-light {
+  border-color: #49a5e6 !important
+}
+
+.border-top-blue-dark-light {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #49a5e6 !important
+}
+
+.border-bottom-blue-dark-light {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #49a5e6 !important
+}
+
+.border-left-blue-dark-light {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #49a5e6 !important
+}
+
+.border-right-blue-dark-light {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #49a5e6 !important
+}
+
+.blue-dark-light::before {
+  background-color: #49A5E6
+}
+
+.fill-blue-dark-light::after {
+  background-color: #49A5E6 !important;
+  fill: #49A5E6 !important
+}
+
+.stroke-blue-dark-light {
+  stroke: #49a5e6
+}
+
+.hover-bg-blue-dark-light:hover {
+  background: #49a5e6 !important
+}
+
+.hover-text-blue-dark-light:hover {
+  color: #49a5e6 !important
+}
+
+.text-blue-accessible {
+  color: #1973b8 !important
+}
+
+.bg-blue-accessible {
+  background-color: #1973b8 !important
+}
+
+.border-blue-accessible {
+  border-color: #1973b8 !important
+}
+
+.border-top-blue-accessible {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #1973b8 !important
+}
+
+.border-bottom-blue-accessible {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #1973b8 !important
+}
+
+.border-left-blue-accessible {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #1973b8 !important
+}
+
+.border-right-blue-accessible {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #1973b8 !important
+}
+
+.blue-accessible::before {
+  background-color: #1973B8
+}
+
+.fill-blue-accessible::after {
+  background-color: #1973B8 !important;
+  fill: #1973B8 !important
+}
+
+.stroke-blue-accessible {
+  stroke: #1973b8
+}
+
+.hover-bg-blue-accessible:hover {
+  background: #1973b8 !important
+}
+
+.hover-text-blue-accessible:hover {
+  color: #1973b8 !important
+}
+
+.text-grey_600 {
+  color: #121212 !important
+}
+
+.bg-grey_600 {
+  background-color: #121212 !important
+}
+
+.border-grey_600 {
+  border-color: #121212 !important
+}
+
+.border-top-grey_600 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #121212 !important
+}
+
+.border-bottom-grey_600 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #121212 !important
+}
+
+.border-left-grey_600 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #121212 !important
+}
+
+.border-right-grey_600 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #121212 !important
+}
+
+.grey_600::before {
+  background-color: #121212
+}
+
+.fill-grey_600::after {
+  background-color: #121212 !important;
+  fill: #121212 !important
+}
+
+.stroke-grey_600 {
+  stroke: #121212
+}
+
+.hover-bg-grey_600:hover {
+  background: #121212 !important
+}
+
+.hover-text-grey_600:hover {
+  color: #121212 !important
+}
+
+.text-grey_500 {
+  color: #666 !important
+}
+
+.bg-grey_500 {
+  background-color: #666 !important
+}
+
+.border-grey_500 {
+  border-color: #666 !important
+}
+
+.border-top-grey_500 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #666 !important
+}
+
+.border-bottom-grey_500 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #666 !important
+}
+
+.border-left-grey_500 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #666 !important
+}
+
+.border-right-grey_500 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #666 !important
+}
+
+.grey_500::before {
+  background-color: #666666
+}
+
+.fill-grey_500::after {
+  background-color: #666666 !important;
+  fill: #666666 !important
+}
+
+.stroke-grey_500 {
+  stroke: #666
+}
+
+.hover-bg-grey_500:hover {
+  background: #666 !important
+}
+
+.hover-text-grey_500:hover {
+  color: #666 !important
+}
+
+.text-grey_400 {
+  color: #bdbdbd !important
+}
+
+.bg-grey_400 {
+  background-color: #bdbdbd !important
+}
+
+.border-grey_400 {
+  border-color: #bdbdbd !important
+}
+
+.border-top-grey_400 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #bdbdbd !important
+}
+
+.border-bottom-grey_400 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #bdbdbd !important
+}
+
+.border-left-grey_400 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #bdbdbd !important
+}
+
+.border-right-grey_400 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #bdbdbd !important
+}
+
+.grey_400::before {
+  background-color: #bdbdbd
+}
+
+.fill-grey_400::after {
+  background-color: #bdbdbd !important;
+  fill: #bdbdbd !important
+}
+
+.stroke-grey_400 {
+  stroke: #bdbdbd
+}
+
+.hover-bg-grey_400:hover {
+  background: #bdbdbd !important
+}
+
+.hover-text-grey_400:hover {
+  color: #bdbdbd !important
+}
+
+.text-grey_300 {
+  color: #d3d3d3 !important
+}
+
+.bg-grey_300 {
+  background-color: #d3d3d3 !important
+}
+
+.border-grey_300 {
+  border-color: #d3d3d3 !important
+}
+
+.border-top-grey_300 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d3d3d3 !important
+}
+
+.border-bottom-grey_300 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d3d3d3 !important
+}
+
+.border-left-grey_300 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d3d3d3 !important
+}
+
+.border-right-grey_300 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d3d3d3 !important
+}
+
+.grey_300::before {
+  background-color: lightgray
+}
+
+.fill-grey_300::after {
+  background-color: lightgray !important;
+  fill: lightgray !important
+}
+
+.stroke-grey_300 {
+  stroke: #d3d3d3
+}
+
+.hover-bg-grey_300:hover {
+  background: #d3d3d3 !important
+}
+
+.hover-text-grey_300:hover {
+  color: #d3d3d3 !important
+}
+
+.text-grey_200 {
+  color: #e9e9e9 !important
+}
+
+.bg-grey_200 {
+  background-color: #e9e9e9 !important
+}
+
+.border-grey_200 {
+  border-color: #e9e9e9 !important
+}
+
+.border-top-grey_200 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #e9e9e9 !important
+}
+
+.border-bottom-grey_200 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e9e9e9 !important
+}
+
+.border-left-grey_200 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #e9e9e9 !important
+}
+
+.border-right-grey_200 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #e9e9e9 !important
+}
+
+.grey_200::before {
+  background-color: #e9e9e9
+}
+
+.fill-grey_200::after {
+  background-color: #e9e9e9 !important;
+  fill: #e9e9e9 !important
+}
+
+.stroke-grey_200 {
+  stroke: #e9e9e9
+}
+
+.hover-bg-grey_200:hover {
+  background: #e9e9e9 !important
+}
+
+.hover-text-grey_200:hover {
+  color: #e9e9e9 !important
+}
+
+.text-grey_100 {
+  color: #f4f4f4 !important
+}
+
+.bg-grey_100 {
+  background-color: #f4f4f4 !important
+}
+
+.border-grey_100 {
+  border-color: #f4f4f4 !important
+}
+
+.border-top-grey_100 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f4f4f4 !important
+}
+
+.border-bottom-grey_100 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f4f4f4 !important
+}
+
+.border-left-grey_100 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f4f4f4 !important
+}
+
+.border-right-grey_100 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f4f4f4 !important
+}
+
+.grey_100::before {
+  background-color: #f4f4f4
+}
+
+.fill-grey_100::after {
+  background-color: #f4f4f4 !important;
+  fill: #f4f4f4 !important
+}
+
+.stroke-grey_100 {
+  stroke: #f4f4f4
+}
+
+.hover-bg-grey_100:hover {
+  background: #f4f4f4 !important
+}
+
+.hover-text-grey_100:hover {
+  color: #f4f4f4 !important
+}
+
+.text-grey_50 {
+  color: #f5f5f5 !important
+}
+
+.bg-grey_50 {
+  background-color: #f5f5f5 !important
+}
+
+.border-grey_50 {
+  border-color: #f5f5f5 !important
+}
+
+.border-top-grey_50 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f5f5f5 !important
+}
+
+.border-bottom-grey_50 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f5f5f5 !important
+}
+
+.border-left-grey_50 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f5f5f5 !important
+}
+
+.border-right-grey_50 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f5f5f5 !important
+}
+
+.grey_50::before {
+  background-color: whitesmoke
+}
+
+.fill-grey_50::after {
+  background-color: whitesmoke !important;
+  fill: whitesmoke !important
+}
+
+.stroke-grey_50 {
+  stroke: #f5f5f5
+}
+
+.hover-bg-grey_50:hover {
+  background: #f5f5f5 !important
+}
+
+.hover-text-grey_50:hover {
+  color: #f5f5f5 !important
+}
+
+.text-aqua {
+  color: #2dcccd !important
+}
+
+.bg-aqua {
+  background-color: #2dcccd !important
+}
+
+.border-aqua {
+  border-color: #2dcccd !important
+}
+
+.border-top-aqua {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #2dcccd !important
+}
+
+.border-bottom-aqua {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #2dcccd !important
+}
+
+.border-left-aqua {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #2dcccd !important
+}
+
+.border-right-aqua {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #2dcccd !important
+}
+
+.aqua::before {
+  background-color: #2DCCCD
+}
+
+.fill-aqua::after {
+  background-color: #2DCCCD !important;
+  fill: #2DCCCD !important
+}
+
+.stroke-aqua {
+  stroke: #2dcccd
+}
+
+.hover-bg-aqua:hover {
+  background: #2dcccd !important
+}
+
+.hover-text-aqua:hover {
+  color: #2dcccd !important
+}
+
+.text-aqua--white {
+  color: #eaf9fa !important
+}
+
+.bg-aqua--white {
+  background-color: #eaf9fa !important
+}
+
+.border-aqua--white {
+  border-color: #eaf9fa !important
+}
+
+.border-top-aqua--white {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #eaf9fa !important
+}
+
+.border-bottom-aqua--white {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eaf9fa !important
+}
+
+.border-left-aqua--white {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #eaf9fa !important
+}
+
+.border-right-aqua--white {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #eaf9fa !important
+}
+
+.aqua--white::before {
+  background-color: #EAF9FA
+}
+
+.fill-aqua--white::after {
+  background-color: #EAF9FA !important;
+  fill: #EAF9FA !important
+}
+
+.stroke-aqua--white {
+  stroke: #eaf9fa
+}
+
+.hover-bg-aqua--white:hover {
+  background: #eaf9fa !important
+}
+
+.hover-text-aqua--white:hover {
+  color: #eaf9fa !important
+}
+
+.text-aqua--light {
+  color: #5ac4c4 !important
+}
+
+.bg-aqua--light {
+  background-color: #5ac4c4 !important
+}
+
+.border-aqua--light {
+  border-color: #5ac4c4 !important
+}
+
+.border-top-aqua--light {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #5ac4c4 !important
+}
+
+.border-bottom-aqua--light {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #5ac4c4 !important
+}
+
+.border-left-aqua--light {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #5ac4c4 !important
+}
+
+.border-right-aqua--light {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #5ac4c4 !important
+}
+
+.aqua--light::before {
+  background-color: #5AC4C4
+}
+
+.fill-aqua--light::after {
+  background-color: #5AC4C4 !important;
+  fill: #5AC4C4 !important
+}
+
+.stroke-aqua--light {
+  stroke: #5ac4c4
+}
+
+.hover-bg-aqua--light:hover {
+  background: #5ac4c4 !important
+}
+
+.hover-text-aqua--light:hover {
+  color: #5ac4c4 !important
+}
+
+.text-aqua--medium {
+  color: #02a5a5 !important
+}
+
+.bg-aqua--medium {
+  background-color: #02a5a5 !important
+}
+
+.border-aqua--medium {
+  border-color: #02a5a5 !important
+}
+
+.border-top-aqua--medium {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #02a5a5 !important
+}
+
+.border-bottom-aqua--medium {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #02a5a5 !important
+}
+
+.border-left-aqua--medium {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #02a5a5 !important
+}
+
+.border-right-aqua--medium {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #02a5a5 !important
+}
+
+.aqua--medium::before {
+  background-color: #02A5A5
+}
+
+.fill-aqua--medium::after {
+  background-color: #02A5A5 !important;
+  fill: #02A5A5 !important
+}
+
+.stroke-aqua--medium {
+  stroke: #02a5a5
+}
+
+.hover-bg-aqua--medium:hover {
+  background: #02a5a5 !important
+}
+
+.hover-text-aqua--medium:hover {
+  color: #02a5a5 !important
+}
+
+.text-aqua--dark {
+  color: #028484 !important
+}
+
+.bg-aqua--dark {
+  background-color: #028484 !important
+}
+
+.border-aqua--dark {
+  border-color: #028484 !important
+}
+
+.border-top-aqua--dark {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #028484 !important
+}
+
+.border-bottom-aqua--dark {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #028484 !important
+}
+
+.border-left-aqua--dark {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #028484 !important
+}
+
+.border-right-aqua--dark {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #028484 !important
+}
+
+.aqua--dark::before {
+  background-color: #028484
+}
+
+.fill-aqua--dark::after {
+  background-color: #028484 !important;
+  fill: #028484 !important
+}
+
+.stroke-aqua--dark {
+  stroke: #028484
+}
+
+.hover-bg-aqua--dark:hover {
+  background: #028484 !important
+}
+
+.hover-text-aqua--dark:hover {
+  color: #028484 !important
+}
+
+.text-red {
+  color: #da3851 !important
+}
+
+.bg-red {
+  background-color: #da3851 !important
+}
+
+.border-red {
+  border-color: #da3851 !important
+}
+
+.border-top-red {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #da3851 !important
+}
+
+.border-bottom-red {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #da3851 !important
+}
+
+.border-left-red {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #da3851 !important
+}
+
+.border-right-red {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #da3851 !important
+}
+
+.red::before {
+  background-color: #DA3851
+}
+
+.fill-red::after {
+  background-color: #DA3851 !important;
+  fill: #DA3851 !important
+}
+
+.stroke-red {
+  stroke: #da3851
+}
+
+.hover-bg-red:hover {
+  background: #da3851 !important
+}
+
+.hover-text-red:hover {
+  color: #da3851 !important
+}
+
+.text-red--white {
+  color: #f4c3ca !important
+}
+
+.bg-red--white {
+  background-color: #f4c3ca !important
+}
+
+.border-red--white {
+  border-color: #f4c3ca !important
+}
+
+.border-top-red--white {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f4c3ca !important
+}
+
+.border-bottom-red--white {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f4c3ca !important
+}
+
+.border-left-red--white {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f4c3ca !important
+}
+
+.border-right-red--white {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f4c3ca !important
+}
+
+.red--white::before {
+  background-color: #F4C3CA
+}
+
+.fill-red--white::after {
+  background-color: #F4C3CA !important;
+  fill: #F4C3CA !important
+}
+
+.stroke-red--white {
+  stroke: #f4c3ca
+}
+
+.hover-bg-red--white:hover {
+  background: #f4c3ca !important
+}
+
+.hover-text-red--white:hover {
+  color: #f4c3ca !important
+}
+
+.text-red--light {
+  color: #e77d8e !important
+}
+
+.bg-red--light {
+  background-color: #e77d8e !important
+}
+
+.border-red--light {
+  border-color: #e77d8e !important
+}
+
+.border-top-red--light {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #e77d8e !important
+}
+
+.border-bottom-red--light {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e77d8e !important
+}
+
+.border-left-red--light {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #e77d8e !important
+}
+
+.border-right-red--light {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #e77d8e !important
+}
+
+.red--light::before {
+  background-color: #E77D8E
+}
+
+.fill-red--light::after {
+  background-color: #E77D8E !important;
+  fill: #E77D8E !important
+}
+
+.stroke-red--light {
+  stroke: #e77d8e
+}
+
+.hover-bg-red--light:hover {
+  background: #e77d8e !important
+}
+
+.hover-text-red--light:hover {
+  color: #e77d8e !important
+}
+
+.text-red--medium {
+  color: #c0475e !important
+}
+
+.bg-red--medium {
+  background-color: #c0475e !important
+}
+
+.border-red--medium {
+  border-color: #c0475e !important
+}
+
+.border-top-red--medium {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #c0475e !important
+}
+
+.border-bottom-red--medium {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #c0475e !important
+}
+
+.border-left-red--medium {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #c0475e !important
+}
+
+.border-right-red--medium {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #c0475e !important
+}
+
+.red--medium::before {
+  background-color: #C0475E
+}
+
+.fill-red--medium::after {
+  background-color: #C0475E !important;
+  fill: #C0475E !important
+}
+
+.stroke-red--medium {
+  stroke: #c0475e
+}
+
+.hover-bg-red--medium:hover {
+  background: #c0475e !important
+}
+
+.hover-text-red--medium:hover {
+  color: #c0475e !important
+}
+
+.text-red--dark {
+  color: #b92a45 !important
+}
+
+.bg-red--dark {
+  background-color: #b92a45 !important
+}
+
+.border-red--dark {
+  border-color: #b92a45 !important
+}
+
+.border-top-red--dark {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #b92a45 !important
+}
+
+.border-bottom-red--dark {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #b92a45 !important
+}
+
+.border-left-red--dark {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #b92a45 !important
+}
+
+.border-right-red--dark {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #b92a45 !important
+}
+
+.red--dark::before {
+  background-color: #B92A45
+}
+
+.fill-red--dark::after {
+  background-color: #B92A45 !important;
+  fill: #B92A45 !important
+}
+
+.stroke-red--dark {
+  stroke: #b92a45
+}
+
+.hover-bg-red--dark:hover {
+  background: #b92a45 !important
+}
+
+.hover-text-red--dark:hover {
+  color: #b92a45 !important
+}
+
+.text-orange {
+  color: #f7893b !important
+}
+
+.bg-orange {
+  background-color: #f7893b !important
+}
+
+.border-orange {
+  border-color: #f7893b !important
+}
+
+.border-top-orange {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f7893b !important
+}
+
+.border-bottom-orange {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f7893b !important
+}
+
+.border-left-orange {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f7893b !important
+}
+
+.border-right-orange {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f7893b !important
+}
+
+.orange::before {
+  background-color: #F7893B
+}
+
+.fill-orange::after {
+  background-color: #F7893B !important;
+  fill: #F7893B !important
+}
+
+.stroke-orange {
+  stroke: #f7893b
+}
+
+.hover-bg-orange:hover {
+  background: #f7893b !important
+}
+
+.hover-text-orange:hover {
+  color: #f7893b !important
+}
+
+.text-orange--white {
+  color: #fde7d8 !important
+}
+
+.bg-orange--white {
+  background-color: #fde7d8 !important
+}
+
+.border-orange--white {
+  border-color: #fde7d8 !important
+}
+
+.border-top-orange--white {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #fde7d8 !important
+}
+
+.border-bottom-orange--white {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #fde7d8 !important
+}
+
+.border-left-orange--white {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fde7d8 !important
+}
+
+.border-right-orange--white {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #fde7d8 !important
+}
+
+.orange--white::before {
+  background-color: #FDE7D8
+}
+
+.fill-orange--white::after {
+  background-color: #FDE7D8 !important;
+  fill: #FDE7D8 !important
+}
+
+.stroke-orange--white {
+  stroke: #fde7d8
+}
+
+.hover-bg-orange--white:hover {
+  background: #fde7d8 !important
+}
+
+.hover-text-orange--white:hover {
+  color: #fde7d8 !important
+}
+
+.text-orange--light {
+  color: #fab27f !important
+}
+
+.bg-orange--light {
+  background-color: #fab27f !important
+}
+
+.border-orange--light {
+  border-color: #fab27f !important
+}
+
+.border-top-orange--light {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #fab27f !important
+}
+
+.border-bottom-orange--light {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #fab27f !important
+}
+
+.border-left-orange--light {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fab27f !important
+}
+
+.border-right-orange--light {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #fab27f !important
+}
+
+.orange--light::before {
+  background-color: #FAB27F
+}
+
+.fill-orange--light::after {
+  background-color: #FAB27F !important;
+  fill: #FAB27F !important
+}
+
+.stroke-orange--light {
+  stroke: #fab27f
+}
+
+.hover-bg-orange--light:hover {
+  background: #fab27f !important
+}
+
+.hover-text-orange--light:hover {
+  color: #fab27f !important
+}
+
+.text-orange--medium {
+  color: #d8732c !important
+}
+
+.bg-orange--medium {
+  background-color: #d8732c !important
+}
+
+.border-orange--medium {
+  border-color: #d8732c !important
+}
+
+.border-top-orange--medium {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d8732c !important
+}
+
+.border-bottom-orange--medium {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d8732c !important
+}
+
+.border-left-orange--medium {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d8732c !important
+}
+
+.border-right-orange--medium {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d8732c !important
+}
+
+.orange--medium::before {
+  background-color: #D8732C
+}
+
+.fill-orange--medium::after {
+  background-color: #D8732C !important;
+  fill: #D8732C !important
+}
+
+.stroke-orange--medium {
+  stroke: #d8732c
+}
+
+.hover-bg-orange--medium:hover {
+  background: #d8732c !important
+}
+
+.hover-text-orange--medium:hover {
+  color: #d8732c !important
+}
+
+.text-orange--dark {
+  color: #c65302 !important
+}
+
+.bg-orange--dark {
+  background-color: #c65302 !important
+}
+
+.border-orange--dark {
+  border-color: #c65302 !important
+}
+
+.border-top-orange--dark {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #c65302 !important
+}
+
+.border-bottom-orange--dark {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #c65302 !important
+}
+
+.border-left-orange--dark {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #c65302 !important
+}
+
+.border-right-orange--dark {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #c65302 !important
+}
+
+.orange--dark::before {
+  background-color: #C65302
+}
+
+.fill-orange--dark::after {
+  background-color: #C65302 !important;
+  fill: #C65302 !important
+}
+
+.stroke-orange--dark {
+  stroke: #c65302
+}
+
+.hover-bg-orange--dark:hover {
+  background: #c65302 !important
+}
+
+.hover-text-orange--dark:hover {
+  color: #c65302 !important
+}
+
+.text-yellow {
+  color: #f8cd51 !important
+}
+
+.bg-yellow {
+  background-color: #f8cd51 !important
+}
+
+.border-yellow {
+  border-color: #f8cd51 !important
+}
+
+.border-top-yellow {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f8cd51 !important
+}
+
+.border-bottom-yellow {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f8cd51 !important
+}
+
+.border-left-yellow {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f8cd51 !important
+}
+
+.border-right-yellow {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f8cd51 !important
+}
+
+.yellow::before {
+  background-color: #F8CD51
+}
+
+.fill-yellow::after {
+  background-color: #F8CD51 !important;
+  fill: #F8CD51 !important
+}
+
+.stroke-yellow {
+  stroke: #f8cd51
+}
+
+.hover-bg-yellow:hover {
+  background: #f8cd51 !important
+}
+
+.hover-text-yellow:hover {
+  color: #f8cd51 !important
+}
+
+.text-yellow--white {
+  color: #fef5dc !important
+}
+
+.bg-yellow--white {
+  background-color: #fef5dc !important
+}
+
+.border-yellow--white {
+  border-color: #fef5dc !important
+}
+
+.border-top-yellow--white {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #fef5dc !important
+}
+
+.border-bottom-yellow--white {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #fef5dc !important
+}
+
+.border-left-yellow--white {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fef5dc !important
+}
+
+.border-right-yellow--white {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #fef5dc !important
+}
+
+.yellow--white::before {
+  background-color: #FEF5DC
+}
+
+.fill-yellow--white::after {
+  background-color: #FEF5DC !important;
+  fill: #FEF5DC !important
+}
+
+.stroke-yellow--white {
+  stroke: #fef5dc
+}
+
+.hover-bg-yellow--white:hover {
+  background: #fef5dc !important
+}
+
+.hover-text-yellow--white:hover {
+  color: #fef5dc !important
+}
+
+.text-yellow--light {
+  color: #fade8e !important
+}
+
+.bg-yellow--light {
+  background-color: #fade8e !important
+}
+
+.border-yellow--light {
+  border-color: #fade8e !important
+}
+
+.border-top-yellow--light {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #fade8e !important
+}
+
+.border-bottom-yellow--light {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #fade8e !important
+}
+
+.border-left-yellow--light {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fade8e !important
+}
+
+.border-right-yellow--light {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #fade8e !important
+}
+
+.yellow--light::before {
+  background-color: #FADE8E
+}
+
+.fill-yellow--light::after {
+  background-color: #FADE8E !important;
+  fill: #FADE8E !important
+}
+
+.stroke-yellow--light {
+  stroke: #fade8e
+}
+
+.hover-bg-yellow--light:hover {
+  background: #fade8e !important
+}
+
+.hover-text-yellow--light:hover {
+  color: #fade8e !important
+}
+
+.text-yellow--medium {
+  color: #c49735 !important
+}
+
+.bg-yellow--medium {
+  background-color: #c49735 !important
+}
+
+.border-yellow--medium {
+  border-color: #c49735 !important
+}
+
+.border-top-yellow--medium {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #c49735 !important
+}
+
+.border-bottom-yellow--medium {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #c49735 !important
+}
+
+.border-left-yellow--medium {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #c49735 !important
+}
+
+.border-right-yellow--medium {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #c49735 !important
+}
+
+.yellow--medium::before {
+  background-color: #C49735
+}
+
+.fill-yellow--medium::after {
+  background-color: #C49735 !important;
+  fill: #C49735 !important
+}
+
+.stroke-yellow--medium {
+  stroke: #c49735
+}
+
+.hover-bg-yellow--medium:hover {
+  background: #c49735 !important
+}
+
+.hover-text-yellow--medium:hover {
+  color: #c49735 !important
+}
+
+.text-yellow--dark {
+  color: #9c6c01 !important
+}
+
+.bg-yellow--dark {
+  background-color: #9c6c01 !important
+}
+
+.border-yellow--dark {
+  border-color: #9c6c01 !important
+}
+
+.border-top-yellow--dark {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #9c6c01 !important
+}
+
+.border-bottom-yellow--dark {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #9c6c01 !important
+}
+
+.border-left-yellow--dark {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #9c6c01 !important
+}
+
+.border-right-yellow--dark {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #9c6c01 !important
+}
+
+.yellow--dark::before {
+  background-color: #9C6C01
+}
+
+.fill-yellow--dark::after {
+  background-color: #9C6C01 !important;
+  fill: #9C6C01 !important
+}
+
+.stroke-yellow--dark {
+  stroke: #9c6c01
+}
+
+.hover-bg-yellow--dark:hover {
+  background: #9c6c01 !important
+}
+
+.hover-text-yellow--dark:hover {
+  color: #9c6c01 !important
+}
+
+.text-gold {
+  color: #d8be75 !important
+}
+
+.bg-gold {
+  background-color: #d8be75 !important
+}
+
+.border-gold {
+  border-color: #d8be75 !important
+}
+
+.border-top-gold {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d8be75 !important
+}
+
+.border-bottom-gold {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d8be75 !important
+}
+
+.border-left-gold {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d8be75 !important
+}
+
+.border-right-gold {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d8be75 !important
+}
+
+.gold::before {
+  background-color: #D8BE75
+}
+
+.fill-gold::after {
+  background-color: #D8BE75 !important;
+  fill: #D8BE75 !important
+}
+
+.stroke-gold {
+  stroke: #d8be75
+}
+
+.hover-bg-gold:hover {
+  background: #d8be75 !important
+}
+
+.hover-text-gold:hover {
+  color: #d8be75 !important
+}
+
+.text-gold--white {
+  color: #f3ebd5 !important
+}
+
+.bg-gold--white {
+  background-color: #f3ebd5 !important
+}
+
+.border-gold--white {
+  border-color: #f3ebd5 !important
+}
+
+.border-top-gold--white {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f3ebd5 !important
+}
+
+.border-bottom-gold--white {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f3ebd5 !important
+}
+
+.border-left-gold--white {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f3ebd5 !important
+}
+
+.border-right-gold--white {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f3ebd5 !important
+}
+
+.gold--white::before {
+  background-color: #F3EBD5
+}
+
+.fill-gold--white::after {
+  background-color: #F3EBD5 !important;
+  fill: #F3EBD5 !important
+}
+
+.stroke-gold--white {
+  stroke: #f3ebd5
+}
+
+.hover-bg-gold--white:hover {
+  background: #f3ebd5 !important
+}
+
+.hover-text-gold--white:hover {
+  color: #f3ebd5 !important
+}
+
+.text-gold--light {
+  color: #e6d5a5 !important
+}
+
+.bg-gold--light {
+  background-color: #e6d5a5 !important
+}
+
+.border-gold--light {
+  border-color: #e6d5a5 !important
+}
+
+.border-top-gold--light {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #e6d5a5 !important
+}
+
+.border-bottom-gold--light {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e6d5a5 !important
+}
+
+.border-left-gold--light {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #e6d5a5 !important
+}
+
+.border-right-gold--light {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #e6d5a5 !important
+}
+
+.gold--light::before {
+  background-color: #E6D5A5
+}
+
+.fill-gold--light::after {
+  background-color: #E6D5A5 !important;
+  fill: #E6D5A5 !important
+}
+
+.stroke-gold--light {
+  stroke: #e6d5a5
+}
+
+.hover-bg-gold--light:hover {
+  background: #e6d5a5 !important
+}
+
+.hover-text-gold--light:hover {
+  color: #e6d5a5 !important
+}
+
+.text-gold--medium {
+  color: #b79e5e !important
+}
+
+.bg-gold--medium {
+  background-color: #b79e5e !important
+}
+
+.border-gold--medium {
+  border-color: #b79e5e !important
+}
+
+.border-top-gold--medium {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #b79e5e !important
+}
+
+.border-bottom-gold--medium {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #b79e5e !important
+}
+
+.border-left-gold--medium {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #b79e5e !important
+}
+
+.border-right-gold--medium {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #b79e5e !important
+}
+
+.gold--medium::before {
+  background-color: #B79E5E
+}
+
+.fill-gold--medium::after {
+  background-color: #B79E5E !important;
+  fill: #B79E5E !important
+}
+
+.stroke-gold--medium {
+  stroke: #b79e5e
+}
+
+.hover-bg-gold--medium:hover {
+  background: #b79e5e !important
+}
+
+.hover-text-gold--medium:hover {
+  color: #b79e5e !important
+}
+
+.text-gold--dark {
+  color: #8e7022 !important
+}
+
+.bg-gold--dark {
+  background-color: #8e7022 !important
+}
+
+.border-gold--dark {
+  border-color: #8e7022 !important
+}
+
+.border-top-gold--dark {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #8e7022 !important
+}
+
+.border-bottom-gold--dark {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #8e7022 !important
+}
+
+.border-left-gold--dark {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #8e7022 !important
+}
+
+.border-right-gold--dark {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #8e7022 !important
+}
+
+.gold--dark::before {
+  background-color: #8E7022
+}
+
+.fill-gold--dark::after {
+  background-color: #8E7022 !important;
+  fill: #8E7022 !important
+}
+
+.stroke-gold--dark {
+  stroke: #8e7022
+}
+
+.hover-bg-gold--dark:hover {
+  background: #8e7022 !important
+}
+
+.hover-text-gold--dark:hover {
+  color: #8e7022 !important
+}
+
+.text-coral {
+  color: #f35e61 !important
+}
+
+.bg-coral {
+  background-color: #f35e61 !important
+}
+
+.border-coral {
+  border-color: #f35e61 !important
+}
+
+.border-top-coral {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f35e61 !important
+}
+
+.border-bottom-coral {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f35e61 !important
+}
+
+.border-left-coral {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f35e61 !important
+}
+
+.border-right-coral {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f35e61 !important
+}
+
+.coral::before {
+  background-color: #F35E61
+}
+
+.fill-coral::after {
+  background-color: #F35E61 !important;
+  fill: #F35E61 !important
+}
+
+.stroke-coral {
+  stroke: #f35e61
+}
+
+.hover-bg-coral:hover {
+  background: #f35e61 !important
+}
+
+.hover-text-coral:hover {
+  color: #f35e61 !important
+}
+
+.text-coral--white {
+  color: #fcdfdf !important
+}
+
+.bg-coral--white {
+  background-color: #fcdfdf !important
+}
+
+.border-coral--white {
+  border-color: #fcdfdf !important
+}
+
+.border-top-coral--white {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #fcdfdf !important
+}
+
+.border-bottom-coral--white {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #fcdfdf !important
+}
+
+.border-left-coral--white {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fcdfdf !important
+}
+
+.border-right-coral--white {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #fcdfdf !important
+}
+
+.coral--white::before {
+  background-color: #FCDFDF
+}
+
+.fill-coral--white::after {
+  background-color: #FCDFDF !important;
+  fill: #FCDFDF !important
+}
+
+.stroke-coral--white {
+  stroke: #fcdfdf
+}
+
+.hover-bg-coral--white:hover {
+  background: #fcdfdf !important
+}
+
+.hover-text-coral--white:hover {
+  color: #fcdfdf !important
+}
+
+.text-coral--light {
+  color: #f59799 !important
+}
+
+.bg-coral--light {
+  background-color: #f59799 !important
+}
+
+.border-coral--light {
+  border-color: #f59799 !important
+}
+
+.border-top-coral--light {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f59799 !important
+}
+
+.border-bottom-coral--light {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f59799 !important
+}
+
+.border-left-coral--light {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f59799 !important
+}
+
+.border-right-coral--light {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f59799 !important
+}
+
+.coral--light::before {
+  background-color: #F59799
+}
+
+.fill-coral--light::after {
+  background-color: #F59799 !important;
+  fill: #F59799 !important
+}
+
+.stroke-coral--light {
+  stroke: #f59799
+}
+
+.hover-bg-coral--light:hover {
+  background: #f59799 !important
+}
+
+.hover-text-coral--light:hover {
+  color: #f59799 !important
+}
+
+.text-coral--medium {
+  color: #d44b50 !important
+}
+
+.bg-coral--medium {
+  background-color: #d44b50 !important
+}
+
+.border-coral--medium {
+  border-color: #d44b50 !important
+}
+
+.border-top-coral--medium {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d44b50 !important
+}
+
+.border-bottom-coral--medium {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d44b50 !important
+}
+
+.border-left-coral--medium {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d44b50 !important
+}
+
+.border-right-coral--medium {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d44b50 !important
+}
+
+.coral--medium::before {
+  background-color: #D44B50
+}
+
+.fill-coral--medium::after {
+  background-color: #D44B50 !important;
+  fill: #D44B50 !important
+}
+
+.stroke-coral--medium {
+  stroke: #d44b50
+}
+
+.hover-bg-coral--medium:hover {
+  background: #d44b50 !important
+}
+
+.hover-text-coral--medium:hover {
+  color: #d44b50 !important
+}
+
+.text-coral--dark {
+  color: #cb353a !important
+}
+
+.bg-coral--dark {
+  background-color: #cb353a !important
+}
+
+.border-coral--dark {
+  border-color: #cb353a !important
+}
+
+.border-top-coral--dark {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #cb353a !important
+}
+
+.border-bottom-coral--dark {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #cb353a !important
+}
+
+.border-left-coral--dark {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #cb353a !important
+}
+
+.border-right-coral--dark {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #cb353a !important
+}
+
+.coral--dark::before {
+  background-color: #CB353A
+}
+
+.fill-coral--dark::after {
+  background-color: #CB353A !important;
+  fill: #CB353A !important
+}
+
+.stroke-coral--dark {
+  stroke: #cb353a
+}
+
+.hover-bg-coral--dark:hover {
+  background: #cb353a !important
+}
+
+.hover-text-coral--dark:hover {
+  color: #cb353a !important
+}
+
+.text-green {
+  color: #48ae64 !important
+}
+
+.bg-green {
+  background-color: #48ae64 !important
+}
+
+.border-green {
+  border-color: #48ae64 !important
+}
+
+.border-top-green {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #48ae64 !important
+}
+
+.border-bottom-green {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #48ae64 !important
+}
+
+.border-left-green {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #48ae64 !important
+}
+
+.border-right-green {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #48ae64 !important
+}
+
+.green::before {
+  background-color: #48AE64
+}
+
+.fill-green::after {
+  background-color: #48AE64 !important;
+  fill: #48AE64 !important
+}
+
+.stroke-green {
+  stroke: #48ae64
+}
+
+.hover-bg-green:hover {
+  background: #48ae64 !important
+}
+
+.hover-text-green:hover {
+  color: #48ae64 !important
+}
+
+.text-green--white {
+  color: #d9efe0 !important
+}
+
+.bg-green--white {
+  background-color: #d9efe0 !important
+}
+
+.border-green--white {
+  border-color: #d9efe0 !important
+}
+
+.border-top-green--white {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d9efe0 !important
+}
+
+.border-bottom-green--white {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d9efe0 !important
+}
+
+.border-left-green--white {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d9efe0 !important
+}
+
+.border-right-green--white {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d9efe0 !important
+}
+
+.green--white::before {
+  background-color: #D9EFE0
+}
+
+.fill-green--white::after {
+  background-color: #D9EFE0 !important;
+  fill: #D9EFE0 !important
+}
+
+.stroke-green--white {
+  stroke: #d9efe0
+}
+
+.hover-bg-green--white:hover {
+  background: #d9efe0 !important
+}
+
+.hover-text-green--white:hover {
+  color: #d9efe0 !important
+}
+
+.text-green--light {
+  color: #88ca9a !important
+}
+
+.bg-green--light {
+  background-color: #88ca9a !important
+}
+
+.border-green--light {
+  border-color: #88ca9a !important
+}
+
+.border-top-green--light {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #88ca9a !important
+}
+
+.border-bottom-green--light {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #88ca9a !important
+}
+
+.border-left-green--light {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #88ca9a !important
+}
+
+.border-right-green--light {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #88ca9a !important
+}
+
+.green--light::before {
+  background-color: #88CA9A
+}
+
+.fill-green--light::after {
+  background-color: #88CA9A !important;
+  fill: #88CA9A !important
+}
+
+.stroke-green--light {
+  stroke: #88ca9a
+}
+
+.hover-bg-green--light:hover {
+  background: #88ca9a !important
+}
+
+.hover-text-green--light:hover {
+  color: #88ca9a !important
+}
+
+.text-green--medium {
+  color: #388d4f !important
+}
+
+.bg-green--medium {
+  background-color: #388d4f !important
+}
+
+.border-green--medium {
+  border-color: #388d4f !important
+}
+
+.border-top-green--medium {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #388d4f !important
+}
+
+.border-bottom-green--medium {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #388d4f !important
+}
+
+.border-left-green--medium {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #388d4f !important
+}
+
+.border-right-green--medium {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #388d4f !important
+}
+
+.green--medium::before {
+  background-color: #388D4F
+}
+
+.fill-green--medium::after {
+  background-color: #388D4F !important;
+  fill: #388D4F !important
+}
+
+.stroke-green--medium {
+  stroke: #388d4f
+}
+
+.hover-bg-green--medium:hover {
+  background: #388d4f !important
+}
+
+.hover-text-green--medium:hover {
+  color: #388d4f !important
+}
+
+.text-green--dark {
+  color: #277a3e !important
+}
+
+.bg-green--dark {
+  background-color: #277a3e !important
+}
+
+.border-green--dark {
+  border-color: #277a3e !important
+}
+
+.border-top-green--dark {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #277a3e !important
+}
+
+.border-bottom-green--dark {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #277a3e !important
+}
+
+.border-left-green--dark {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #277a3e !important
+}
+
+.border-right-green--dark {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #277a3e !important
+}
+
+.green--dark::before {
+  background-color: #277A3E
+}
+
+.fill-green--dark::after {
+  background-color: #277A3E !important;
+  fill: #277A3E !important
+}
+
+.stroke-green--dark {
+  stroke: #277a3e
+}
+
+.hover-bg-green--dark:hover {
+  background: #277a3e !important
+}
+
+.hover-text-green--dark:hover {
+  color: #277a3e !important
+}
+
+.text-pink {
+  color: #f78be8 !important
+}
+
+.bg-pink {
+  background-color: #f78be8 !important
+}
+
+.border-pink {
+  border-color: #f78be8 !important
+}
+
+.border-top-pink {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f78be8 !important
+}
+
+.border-bottom-pink {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f78be8 !important
+}
+
+.border-left-pink {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f78be8 !important
+}
+
+.border-right-pink {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f78be8 !important
+}
+
+.pink::before {
+  background-color: #F78BE8
+}
+
+.fill-pink::after {
+  background-color: #F78BE8 !important;
+  fill: #F78BE8 !important
+}
+
+.stroke-pink {
+  stroke: #f78be8
+}
+
+.hover-bg-pink:hover {
+  background: #f78be8 !important
+}
+
+.hover-text-pink:hover {
+  color: #f78be8 !important
+}
+
+.text-pink--white {
+  color: #fddcf8 !important
+}
+
+.bg-pink--white {
+  background-color: #fddcf8 !important
+}
+
+.border-pink--white {
+  border-color: #fddcf8 !important
+}
+
+.border-top-pink--white {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #fddcf8 !important
+}
+
+.border-bottom-pink--white {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #fddcf8 !important
+}
+
+.border-left-pink--white {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fddcf8 !important
+}
+
+.border-right-pink--white {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #fddcf8 !important
+}
+
+.pink--white::before {
+  background-color: #FDDCF8
+}
+
+.fill-pink--white::after {
+  background-color: #FDDCF8 !important;
+  fill: #FDDCF8 !important
+}
+
+.stroke-pink--white {
+  stroke: #fddcf8
+}
+
+.hover-bg-pink--white:hover {
+  background: #fddcf8 !important
+}
+
+.hover-text-pink--white:hover {
+  color: #fddcf8 !important
+}
+
+.text-pink--light {
+  color: #fab3f0 !important
+}
+
+.bg-pink--light {
+  background-color: #fab3f0 !important
+}
+
+.border-pink--light {
+  border-color: #fab3f0 !important
+}
+
+.border-top-pink--light {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #fab3f0 !important
+}
+
+.border-bottom-pink--light {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #fab3f0 !important
+}
+
+.border-left-pink--light {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fab3f0 !important
+}
+
+.border-right-pink--light {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #fab3f0 !important
+}
+
+.pink--light::before {
+  background-color: #FAB3F0
+}
+
+.fill-pink--light::after {
+  background-color: #FAB3F0 !important;
+  fill: #FAB3F0 !important
+}
+
+.stroke-pink--light {
+  stroke: #fab3f0
+}
+
+.hover-bg-pink--light:hover {
+  background: #fab3f0 !important
+}
+
+.hover-text-pink--light:hover {
+  color: #fab3f0 !important
+}
+
+.text-pink--medium {
+  color: #c569b9 !important
+}
+
+.bg-pink--medium {
+  background-color: #c569b9 !important
+}
+
+.border-pink--medium {
+  border-color: #c569b9 !important
+}
+
+.border-top-pink--medium {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #c569b9 !important
+}
+
+.border-bottom-pink--medium {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #c569b9 !important
+}
+
+.border-left-pink--medium {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #c569b9 !important
+}
+
+.border-right-pink--medium {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #c569b9 !important
+}
+
+.pink--medium::before {
+  background-color: #C569B9
+}
+
+.fill-pink--medium::after {
+  background-color: #C569B9 !important;
+  fill: #C569B9 !important
+}
+
+.stroke-pink--medium {
+  stroke: #c569b9
+}
+
+.hover-bg-pink--medium:hover {
+  background: #c569b9 !important
+}
+
+.hover-text-pink--medium:hover {
+  color: #c569b9 !important
+}
+
+.text-pink--dark {
+  color: #ad53a1 !important
+}
+
+.bg-pink--dark {
+  background-color: #ad53a1 !important
+}
+
+.border-pink--dark {
+  border-color: #ad53a1 !important
+}
+
+.border-top-pink--dark {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #ad53a1 !important
+}
+
+.border-bottom-pink--dark {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ad53a1 !important
+}
+
+.border-left-pink--dark {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #ad53a1 !important
+}
+
+.border-right-pink--dark {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #ad53a1 !important
+}
+
+.pink--dark::before {
+  background-color: #AD53A1
+}
+
+.fill-pink--dark::after {
+  background-color: #AD53A1 !important;
+  fill: #AD53A1 !important
+}
+
+.stroke-pink--dark {
+  stroke: #ad53a1
+}
+
+.hover-bg-pink--dark:hover {
+  background: #ad53a1 !important
+}
+
+.hover-text-pink--dark:hover {
+  color: #ad53a1 !important
+}
+
+.text-purple {
+  color: #8f7ae5 !important
+}
+
+.bg-purple {
+  background-color: #8f7ae5 !important
+}
+
+.border-purple {
+  border-color: #8f7ae5 !important
+}
+
+.border-top-purple {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #8f7ae5 !important
+}
+
+.border-bottom-purple {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #8f7ae5 !important
+}
+
+.border-left-purple {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #8f7ae5 !important
+}
+
+.border-right-purple {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #8f7ae5 !important
+}
+
+.purple::before {
+  background-color: #8F7AE5
+}
+
+.fill-purple::after {
+  background-color: #8F7AE5 !important;
+  fill: #8F7AE5 !important
+}
+
+.stroke-purple {
+  stroke: #8f7ae5
+}
+
+.hover-bg-purple:hover {
+  background: #8f7ae5 !important
+}
+
+.hover-text-purple:hover {
+  color: #8f7ae5 !important
+}
+
+.text-purple--white {
+  color: #ddd7f7 !important
+}
+
+.bg-purple--white {
+  background-color: #ddd7f7 !important
+}
+
+.border-purple--white {
+  border-color: #ddd7f7 !important
+}
+
+.border-top-purple--white {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #ddd7f7 !important
+}
+
+.border-bottom-purple--white {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ddd7f7 !important
+}
+
+.border-left-purple--white {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #ddd7f7 !important
+}
+
+.border-right-purple--white {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #ddd7f7 !important
+}
+
+.purple--white::before {
+  background-color: #DDD7F7
+}
+
+.fill-purple--white::after {
+  background-color: #DDD7F7 !important;
+  fill: #DDD7F7 !important
+}
+
+.stroke-purple--white {
+  stroke: #ddd7f7
+}
+
+.hover-bg-purple--white:hover {
+  background: #ddd7f7 !important
+}
+
+.hover-text-purple--white:hover {
+  color: #ddd7f7 !important
+}
+
+.text-purple--light {
+  color: #b6a8ee !important
+}
+
+.bg-purple--light {
+  background-color: #b6a8ee !important
+}
+
+.border-purple--light {
+  border-color: #b6a8ee !important
+}
+
+.border-top-purple--light {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #b6a8ee !important
+}
+
+.border-bottom-purple--light {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #b6a8ee !important
+}
+
+.border-left-purple--light {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #b6a8ee !important
+}
+
+.border-right-purple--light {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #b6a8ee !important
+}
+
+.purple--light::before {
+  background-color: #B6A8EE
+}
+
+.fill-purple--light::after {
+  background-color: #B6A8EE !important;
+  fill: #B6A8EE !important
+}
+
+.stroke-purple--light {
+  stroke: #b6a8ee
+}
+
+.hover-bg-purple--light:hover {
+  background: #b6a8ee !important
+}
+
+.hover-text-purple--light:hover {
+  color: #b6a8ee !important
+}
+
+.text-purple--medium {
+  color: #7c6ac7 !important
+}
+
+.bg-purple--medium {
+  background-color: #7c6ac7 !important
+}
+
+.border-purple--medium {
+  border-color: #7c6ac7 !important
+}
+
+.border-top-purple--medium {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #7c6ac7 !important
+}
+
+.border-bottom-purple--medium {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #7c6ac7 !important
+}
+
+.border-left-purple--medium {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #7c6ac7 !important
+}
+
+.border-right-purple--medium {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #7c6ac7 !important
+}
+
+.purple--medium::before {
+  background-color: #7C6AC7
+}
+
+.fill-purple--medium::after {
+  background-color: #7C6AC7 !important;
+  fill: #7C6AC7 !important
+}
+
+.stroke-purple--medium {
+  stroke: #7c6ac7
+}
+
+.hover-bg-purple--medium:hover {
+  background: #7c6ac7 !important
+}
+
+.hover-text-purple--medium:hover {
+  color: #7c6ac7 !important
+}
+
+.text-purple--dark {
+  color: #6754b8 !important
+}
+
+.bg-purple--dark {
+  background-color: #6754b8 !important
+}
+
+.border-purple--dark {
+  border-color: #6754b8 !important
+}
+
+.border-top-purple--dark {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #6754b8 !important
+}
+
+.border-bottom-purple--dark {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #6754b8 !important
+}
+
+.border-left-purple--dark {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #6754b8 !important
+}
+
+.border-right-purple--dark {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #6754b8 !important
+}
+
+.purple--dark::before {
+  background-color: #6754B8
+}
+
+.fill-purple--dark::after {
+  background-color: #6754B8 !important;
+  fill: #6754B8 !important
+}
+
+.stroke-purple--dark {
+  stroke: #6754b8
+}
+
+.hover-bg-purple--dark:hover {
+  background: #6754b8 !important
+}
+
+.hover-text-purple--dark:hover {
+  color: #6754b8 !important
+}
+
+.text-aqua--darkest {
+  color: #006c6c !important
+}
+
+.bg-aqua--darkest {
+  background-color: #006c6c !important
+}
+
+.border-aqua--darkest {
+  border-color: #006c6c !important
+}
+
+.border-top-aqua--darkest {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #006c6c !important
+}
+
+.border-bottom-aqua--darkest {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #006c6c !important
+}
+
+.border-left-aqua--darkest {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #006c6c !important
+}
+
+.border-right-aqua--darkest {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #006c6c !important
+}
+
+.aqua--darkest::before {
+  background-color: #006C6C
+}
+
+.fill-aqua--darkest::after {
+  background-color: #006C6C !important;
+  fill: #006C6C !important
+}
+
+.stroke-aqua--darkest {
+  stroke: #006c6c
+}
+
+.hover-bg-aqua--darkest:hover {
+  background: #006c6c !important
+}
+
+.hover-text-aqua--darkest:hover {
+  color: #006c6c !important
+}
+
+.text-category_0 {
+  color: #d3d3d3 !important
+}
+
+.bg-category_0 {
+  background-color: #d3d3d3 !important
+}
+
+.border-category_0 {
+  border-color: #d3d3d3 !important
+}
+
+.border-top-category_0 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d3d3d3 !important
+}
+
+.border-bottom-category_0 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d3d3d3 !important
+}
+
+.border-left-category_0 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d3d3d3 !important
+}
+
+.border-right-category_0 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d3d3d3 !important
+}
+
+.c-icon-category_0::before {
+  font-family: "BBVA-Icons";
+  content: "î§ž";
+  color: #d3d3d3;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_0::before {
+  background-color: lightgray
+}
+
+.fill-category_0::after {
+  background-color: lightgray !important;
+  fill: lightgray !important
+}
+
+.stroke-category_0 {
+  stroke: #d3d3d3
+}
+
+.hover-bg-category_0:hover {
+  background: #d3d3d3 !important
+}
+
+.hover-text-category_0:hover {
+  color: #d3d3d3 !important
+}
+
+.text-category_1 {
+  color: #d3d3d3 !important
+}
+
+.bg-category_1 {
+  background-color: #d3d3d3 !important
+}
+
+.border-category_1 {
+  border-color: #d3d3d3 !important
+}
+
+.border-top-category_1 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d3d3d3 !important
+}
+
+.border-bottom-category_1 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d3d3d3 !important
+}
+
+.border-left-category_1 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d3d3d3 !important
+}
+
+.border-right-category_1 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d3d3d3 !important
+}
+
+.c-icon-category_1::before {
+  font-family: "BBVA-Icons";
+  content: "î¥š";
+  color: #d3d3d3;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_1::before {
+  background-color: lightgray
+}
+
+.fill-category_1::after {
+  background-color: lightgray !important;
+  fill: lightgray !important
+}
+
+.stroke-category_1 {
+  stroke: #d3d3d3
+}
+
+.hover-bg-category_1:hover {
+  background: #d3d3d3 !important
+}
+
+.hover-text-category_1:hover {
+  color: #d3d3d3 !important
+}
+
+.text-category_2 {
+  color: #d3d3d3 !important
+}
+
+.bg-category_2 {
+  background-color: #d3d3d3 !important
+}
+
+.border-category_2 {
+  border-color: #d3d3d3 !important
+}
+
+.border-top-category_2 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d3d3d3 !important
+}
+
+.border-bottom-category_2 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d3d3d3 !important
+}
+
+.border-left-category_2 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d3d3d3 !important
+}
+
+.border-right-category_2 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d3d3d3 !important
+}
+
+.c-icon-category_2::before {
+  font-family: "BBVA-Icons";
+  content: "î¥š";
+  color: #d3d3d3;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_2::before {
+  background-color: lightgray
+}
+
+.fill-category_2::after {
+  background-color: lightgray !important;
+  fill: lightgray !important
+}
+
+.stroke-category_2 {
+  stroke: #d3d3d3
+}
+
+.hover-bg-category_2:hover {
+  background: #d3d3d3 !important
+}
+
+.hover-text-category_2:hover {
+  color: #d3d3d3 !important
+}
+
+.text-category_3 {
+  color: #e77d8e !important
+}
+
+.bg-category_3 {
+  background-color: #e77d8e !important
+}
+
+.border-category_3 {
+  border-color: #e77d8e !important
+}
+
+.border-top-category_3 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #e77d8e !important
+}
+
+.border-bottom-category_3 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e77d8e !important
+}
+
+.border-left-category_3 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #e77d8e !important
+}
+
+.border-right-category_3 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #e77d8e !important
+}
+
+.c-icon-category_3::before {
+  font-family: "BBVA-Icons";
+  content: "î¤´";
+  color: #e77d8e;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_3::before {
+  background-color: #E77D8E
+}
+
+.fill-category_3::after {
+  background-color: #E77D8E !important;
+  fill: #E77D8E !important
+}
+
+.stroke-category_3 {
+  stroke: #e77d8e
+}
+
+.hover-bg-category_3:hover {
+  background: #e77d8e !important
+}
+
+.hover-text-category_3:hover {
+  color: #e77d8e !important
+}
+
+.text-category_4 {
+  color: #b6a8ee !important
+}
+
+.bg-category_4 {
+  background-color: #b6a8ee !important
+}
+
+.border-category_4 {
+  border-color: #b6a8ee !important
+}
+
+.border-top-category_4 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #b6a8ee !important
+}
+
+.border-bottom-category_4 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #b6a8ee !important
+}
+
+.border-left-category_4 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #b6a8ee !important
+}
+
+.border-right-category_4 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #b6a8ee !important
+}
+
+.c-icon-category_4::before {
+  font-family: "BBVA-Icons";
+  content: "î¤¸";
+  color: #b6a8ee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_4::before {
+  background-color: #B6A8EE
+}
+
+.fill-category_4::after {
+  background-color: #B6A8EE !important;
+  fill: #B6A8EE !important
+}
+
+.stroke-category_4 {
+  stroke: #b6a8ee
+}
+
+.hover-bg-category_4:hover {
+  background: #b6a8ee !important
+}
+
+.hover-text-category_4:hover {
+  color: #b6a8ee !important
+}
+
+.text-category_5 {
+  color: #1464a5 !important
+}
+
+.bg-category_5 {
+  background-color: #1464a5 !important
+}
+
+.border-category_5 {
+  border-color: #1464a5 !important
+}
+
+.border-top-category_5 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #1464a5 !important
+}
+
+.border-bottom-category_5 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #1464a5 !important
+}
+
+.border-left-category_5 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #1464a5 !important
+}
+
+.border-right-category_5 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #1464a5 !important
+}
+
+.c-icon-category_5::before {
+  font-family: "BBVA-Icons";
+  content: "î¤®";
+  color: #1464a5;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_5::before {
+  background-color: #1464A5
+}
+
+.fill-category_5::after {
+  background-color: #1464A5 !important;
+  fill: #1464A5 !important
+}
+
+.stroke-category_5 {
+  stroke: #1464a5
+}
+
+.hover-bg-category_5:hover {
+  background: #1464a5 !important
+}
+
+.hover-text-category_5:hover {
+  color: #1464a5 !important
+}
+
+.text-category_6 {
+  color: #f78be8 !important
+}
+
+.bg-category_6 {
+  background-color: #f78be8 !important
+}
+
+.border-category_6 {
+  border-color: #f78be8 !important
+}
+
+.border-top-category_6 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f78be8 !important
+}
+
+.border-bottom-category_6 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f78be8 !important
+}
+
+.border-left-category_6 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f78be8 !important
+}
+
+.border-right-category_6 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f78be8 !important
+}
+
+.c-icon-category_6::before {
+  font-family: "BBVA-Icons";
+  content: "î¥‡";
+  color: #f78be8;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_6::before {
+  background-color: #F78BE8
+}
+
+.fill-category_6::after {
+  background-color: #F78BE8 !important;
+  fill: #F78BE8 !important
+}
+
+.stroke-category_6 {
+  stroke: #f78be8
+}
+
+.hover-bg-category_6:hover {
+  background: #f78be8 !important
+}
+
+.hover-text-category_6:hover {
+  color: #f78be8 !important
+}
+
+.text-category_7 {
+  color: #2dcccd !important
+}
+
+.bg-category_7 {
+  background-color: #2dcccd !important
+}
+
+.border-category_7 {
+  border-color: #2dcccd !important
+}
+
+.border-top-category_7 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #2dcccd !important
+}
+
+.border-bottom-category_7 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #2dcccd !important
+}
+
+.border-left-category_7 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #2dcccd !important
+}
+
+.border-right-category_7 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #2dcccd !important
+}
+
+.c-icon-category_7::before {
+  font-family: "BBVA-Icons";
+  content: "î¥Ž";
+  color: #2dcccd;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_7::before {
+  background-color: #2DCCCD
+}
+
+.fill-category_7::after {
+  background-color: #2DCCCD !important;
+  fill: #2DCCCD !important
+}
+
+.stroke-category_7 {
+  stroke: #2dcccd
+}
+
+.hover-bg-category_7:hover {
+  background: #2dcccd !important
+}
+
+.hover-text-category_7:hover {
+  color: #2dcccd !important
+}
+
+.text-category_8 {
+  color: #8f7ae5 !important
+}
+
+.bg-category_8 {
+  background-color: #8f7ae5 !important
+}
+
+.border-category_8 {
+  border-color: #8f7ae5 !important
+}
+
+.border-top-category_8 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #8f7ae5 !important
+}
+
+.border-bottom-category_8 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #8f7ae5 !important
+}
+
+.border-left-category_8 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #8f7ae5 !important
+}
+
+.border-right-category_8 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #8f7ae5 !important
+}
+
+.c-icon-category_8::before {
+  font-family: "BBVA-Icons";
+  content: "î¤¹";
+  color: #8f7ae5;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_8::before {
+  background-color: #8F7AE5
+}
+
+.fill-category_8::after {
+  background-color: #8F7AE5 !important;
+  fill: #8F7AE5 !important
+}
+
+.stroke-category_8 {
+  stroke: #8f7ae5
+}
+
+.hover-bg-category_8:hover {
+  background: #8f7ae5 !important
+}
+
+.hover-text-category_8:hover {
+  color: #8f7ae5 !important
+}
+
+.text-category_9 {
+  color: #88ca9a !important
+}
+
+.bg-category_9 {
+  background-color: #88ca9a !important
+}
+
+.border-category_9 {
+  border-color: #88ca9a !important
+}
+
+.border-top-category_9 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #88ca9a !important
+}
+
+.border-bottom-category_9 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #88ca9a !important
+}
+
+.border-left-category_9 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #88ca9a !important
+}
+
+.border-right-category_9 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #88ca9a !important
+}
+
+.c-icon-category_9::before {
+  font-family: "BBVA-Icons";
+  content: "î¦»";
+  color: #88ca9a;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_9::before {
+  background-color: #88CA9A
+}
+
+.fill-category_9::after {
+  background-color: #88CA9A !important;
+  fill: #88CA9A !important
+}
+
+.stroke-category_9 {
+  stroke: #88ca9a
+}
+
+.hover-bg-category_9:hover {
+  background: #88ca9a !important
+}
+
+.hover-text-category_9:hover {
+  color: #88ca9a !important
+}
+
+.text-category_10 {
+  color: #f7893b !important
+}
+
+.bg-category_10 {
+  background-color: #f7893b !important
+}
+
+.border-category_10 {
+  border-color: #f7893b !important
+}
+
+.border-top-category_10 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f7893b !important
+}
+
+.border-bottom-category_10 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f7893b !important
+}
+
+.border-left-category_10 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f7893b !important
+}
+
+.border-right-category_10 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f7893b !important
+}
+
+.c-icon-category_10::before {
+  font-family: "BBVA-Icons";
+  content: "î¤š";
+  color: #f7893b;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_10::before {
+  background-color: #F7893B
+}
+
+.fill-category_10::after {
+  background-color: #F7893B !important;
+  fill: #F7893B !important
+}
+
+.stroke-category_10 {
+  stroke: #f7893b
+}
+
+.hover-bg-category_10:hover {
+  background: #f7893b !important
+}
+
+.hover-text-category_10:hover {
+  color: #f7893b !important
+}
+
+.text-category_11 {
+  color: #f8cd51 !important
+}
+
+.bg-category_11 {
+  background-color: #f8cd51 !important
+}
+
+.border-category_11 {
+  border-color: #f8cd51 !important
+}
+
+.border-top-category_11 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f8cd51 !important
+}
+
+.border-bottom-category_11 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f8cd51 !important
+}
+
+.border-left-category_11 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f8cd51 !important
+}
+
+.border-right-category_11 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f8cd51 !important
+}
+
+.c-icon-category_11::before {
+  font-family: "BBVA-Icons";
+  content: "î¥ˆ";
+  color: #f8cd51;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_11::before {
+  background-color: #F8CD51
+}
+
+.fill-category_11::after {
+  background-color: #F8CD51 !important;
+  fill: #F8CD51 !important
+}
+
+.stroke-category_11 {
+  stroke: #f8cd51
+}
+
+.hover-bg-category_11:hover {
+  background: #f8cd51 !important
+}
+
+.hover-text-category_11:hover {
+  color: #f8cd51 !important
+}
+
+.text-category_12 {
+  color: #d3d3d3 !important
+}
+
+.bg-category_12 {
+  background-color: #d3d3d3 !important
+}
+
+.border-category_12 {
+  border-color: #d3d3d3 !important
+}
+
+.border-top-category_12 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d3d3d3 !important
+}
+
+.border-bottom-category_12 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d3d3d3 !important
+}
+
+.border-left-category_12 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d3d3d3 !important
+}
+
+.border-right-category_12 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d3d3d3 !important
+}
+
+.c-icon-category_12::before {
+  font-family: "BBVA-Icons";
+  content: "î¥Š";
+  color: #d3d3d3;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_12::before {
+  background-color: lightgray
+}
+
+.fill-category_12::after {
+  background-color: lightgray !important;
+  fill: lightgray !important
+}
+
+.stroke-category_12 {
+  stroke: #d3d3d3
+}
+
+.hover-bg-category_12:hover {
+  background: #d3d3d3 !important
+}
+
+.hover-text-category_12:hover {
+  color: #d3d3d3 !important
+}
+
+.text-category_13 {
+  color: #d44b50 !important
+}
+
+.bg-category_13 {
+  background-color: #d44b50 !important
+}
+
+.border-category_13 {
+  border-color: #d44b50 !important
+}
+
+.border-top-category_13 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d44b50 !important
+}
+
+.border-bottom-category_13 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d44b50 !important
+}
+
+.border-left-category_13 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d44b50 !important
+}
+
+.border-right-category_13 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d44b50 !important
+}
+
+.c-icon-category_13::before {
+  font-family: "BBVA-Icons";
+  content: "î¤¾";
+  color: #d44b50;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_13::before {
+  background-color: #D44B50
+}
+
+.fill-category_13::after {
+  background-color: #D44B50 !important;
+  fill: #D44B50 !important
+}
+
+.stroke-category_13 {
+  stroke: #d44b50
+}
+
+.hover-bg-category_13:hover {
+  background: #d44b50 !important
+}
+
+.hover-text-category_13:hover {
+  color: #d44b50 !important
+}
+
+.text-category_14 {
+  color: #5bbeff !important
+}
+
+.bg-category_14 {
+  background-color: #5bbeff !important
+}
+
+.border-category_14 {
+  border-color: #5bbeff !important
+}
+
+.border-top-category_14 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #5bbeff !important
+}
+
+.border-bottom-category_14 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #5bbeff !important
+}
+
+.border-left-category_14 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #5bbeff !important
+}
+
+.border-right-category_14 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #5bbeff !important
+}
+
+.c-icon-category_14::before {
+  font-family: "BBVA-Icons";
+  content: "î¤—";
+  color: #5bbeff;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_14::before {
+  background-color: #5BBEFF
+}
+
+.fill-category_14::after {
+  background-color: #5BBEFF !important;
+  fill: #5BBEFF !important
+}
+
+.stroke-category_14 {
+  stroke: #5bbeff
+}
+
+.hover-bg-category_14:hover {
+  background: #5bbeff !important
+}
+
+.hover-text-category_14:hover {
+  color: #5bbeff !important
+}
+
+.text-category_15 {
+  color: #b79e5e !important
+}
+
+.bg-category_15 {
+  background-color: #b79e5e !important
+}
+
+.border-category_15 {
+  border-color: #b79e5e !important
+}
+
+.border-top-category_15 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #b79e5e !important
+}
+
+.border-bottom-category_15 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #b79e5e !important
+}
+
+.border-left-category_15 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #b79e5e !important
+}
+
+.border-right-category_15 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #b79e5e !important
+}
+
+.c-icon-category_15::before {
+  font-family: "BBVA-Icons";
+  content: "î¤¬";
+  color: #b79e5e;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_15::before {
+  background-color: #B79E5E
+}
+
+.fill-category_15::after {
+  background-color: #B79E5E !important;
+  fill: #B79E5E !important
+}
+
+.stroke-category_15 {
+  stroke: #b79e5e
+}
+
+.hover-bg-category_15:hover {
+  background: #b79e5e !important
+}
+
+.hover-text-category_15:hover {
+  color: #b79e5e !important
+}
+
+.text-category_9999 {
+  color: #d3d3d3 !important
+}
+
+.bg-category_9999 {
+  background-color: #d3d3d3 !important
+}
+
+.border-category_9999 {
+  border-color: #d3d3d3 !important
+}
+
+.border-top-category_9999 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d3d3d3 !important
+}
+
+.border-bottom-category_9999 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d3d3d3 !important
+}
+
+.border-left-category_9999 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d3d3d3 !important
+}
+
+.border-right-category_9999 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d3d3d3 !important
+}
+
+.c-icon-category_9999::before {
+  font-family: "BBVA-Icons";
+  content: "î¥š";
+  color: #d3d3d3;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_9999::before {
+  background-color: lightgray
+}
+
+.fill-category_9999::after {
+  background-color: lightgray !important;
+  fill: lightgray !important
+}
+
+.stroke-category_9999 {
+  stroke: #d3d3d3
+}
+
+.hover-bg-category_9999:hover {
+  background: #d3d3d3 !important
+}
+
+.hover-text-category_9999:hover {
+  color: #d3d3d3 !important
+}
+
+.text-category_none {
+  color: #043263 !important
+}
+
+.bg-category_none {
+  background-color: #043263 !important
+}
+
+.border-category_none {
+  border-color: #043263 !important
+}
+
+.border-top-category_none {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #043263 !important
+}
+
+.border-bottom-category_none {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #043263 !important
+}
+
+.border-left-category_none {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #043263 !important
+}
+
+.border-right-category_none {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #043263 !important
+}
+
+.c-icon-category_none::before {
+  font-family: "BBVA-Icons";
+  content: "î§";
+  color: #043263;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.category_none::before {
+  background-color: #043263
+}
+
+.fill-category_none::after {
+  background-color: #043263 !important;
+  fill: #043263 !important
+}
+
+.stroke-category_none {
+  stroke: #043263
+}
+
+.hover-bg-category_none:hover {
+  background: #043263 !important
+}
+
+.hover-text-category_none:hover {
+  color: #043263 !important
+}
+
+.text-subcategory_41 {
+  color: #5bbeff !important
+}
+
+.bg-subcategory_41 {
+  background-color: #5bbeff !important
+}
+
+.border-subcategory_41 {
+  border-color: #5bbeff !important
+}
+
+.border-top-subcategory_41 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #5bbeff !important
+}
+
+.border-bottom-subcategory_41 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #5bbeff !important
+}
+
+.border-left-subcategory_41 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #5bbeff !important
+}
+
+.border-right-subcategory_41 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #5bbeff !important
+}
+
+.c-icon-subcategory_41::before {
+  font-family: "BBVA-Icons";
+  content: "î¤†";
+  color: #5bbeff;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_41::before {
+  background-color: #5BBEFF
+}
+
+.fill-subcategory_41::after {
+  background-color: #5BBEFF !important;
+  fill: #5BBEFF !important
+}
+
+.stroke-subcategory_41 {
+  stroke: #5bbeff
+}
+
+.hover-bg-subcategory_41:hover {
+  background: #5bbeff !important
+}
+
+.hover-text-subcategory_41:hover {
+  color: #5bbeff !important
+}
+
+.text-subcategory_42 {
+  color: #d8be75 !important
+}
+
+.bg-subcategory_42 {
+  background-color: #d8be75 !important
+}
+
+.border-subcategory_42 {
+  border-color: #d8be75 !important
+}
+
+.border-top-subcategory_42 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d8be75 !important
+}
+
+.border-bottom-subcategory_42 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d8be75 !important
+}
+
+.border-left-subcategory_42 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d8be75 !important
+}
+
+.border-right-subcategory_42 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d8be75 !important
+}
+
+.c-icon-subcategory_42::before {
+  font-family: "BBVA-Icons";
+  content: "î¤";
+  color: #d8be75;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_42::before {
+  background-color: #D8BE75
+}
+
+.fill-subcategory_42::after {
+  background-color: #D8BE75 !important;
+  fill: #D8BE75 !important
+}
+
+.stroke-subcategory_42 {
+  stroke: #d8be75
+}
+
+.hover-bg-subcategory_42:hover {
+  background: #d8be75 !important
+}
+
+.hover-text-subcategory_42:hover {
+  color: #d8be75 !important
+}
+
+.text-subcategory_43 {
+  color: #c0475e !important
+}
+
+.bg-subcategory_43 {
+  background-color: #c0475e !important
+}
+
+.border-subcategory_43 {
+  border-color: #c0475e !important
+}
+
+.border-top-subcategory_43 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #c0475e !important
+}
+
+.border-bottom-subcategory_43 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #c0475e !important
+}
+
+.border-left-subcategory_43 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #c0475e !important
+}
+
+.border-right-subcategory_43 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #c0475e !important
+}
+
+.c-icon-subcategory_43::before {
+  font-family: "BBVA-Icons";
+  content: "î¤Ž";
+  color: #c0475e;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_43::before {
+  background-color: #C0475E
+}
+
+.fill-subcategory_43::after {
+  background-color: #C0475E !important;
+  fill: #C0475E !important
+}
+
+.stroke-subcategory_43 {
+  stroke: #c0475e
+}
+
+.hover-bg-subcategory_43:hover {
+  background: #c0475e !important
+}
+
+.hover-text-subcategory_43:hover {
+  color: #c0475e !important
+}
+
+.text-subcategory_44 {
+  color: #88ca9a !important
+}
+
+.bg-subcategory_44 {
+  background-color: #88ca9a !important
+}
+
+.border-subcategory_44 {
+  border-color: #88ca9a !important
+}
+
+.border-top-subcategory_44 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #88ca9a !important
+}
+
+.border-bottom-subcategory_44 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #88ca9a !important
+}
+
+.border-left-subcategory_44 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #88ca9a !important
+}
+
+.border-right-subcategory_44 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #88ca9a !important
+}
+
+.c-icon-subcategory_44::before {
+  font-family: "BBVA-Icons";
+  content: "î¦»";
+  color: #88ca9a;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_44::before {
+  background-color: #88CA9A
+}
+
+.fill-subcategory_44::after {
+  background-color: #88CA9A !important;
+  fill: #88CA9A !important
+}
+
+.stroke-subcategory_44 {
+  stroke: #88ca9a
+}
+
+.hover-bg-subcategory_44:hover {
+  background: #88ca9a !important
+}
+
+.hover-text-subcategory_44:hover {
+  color: #88ca9a !important
+}
+
+.text-subcategory_45 {
+  color: #ad53a1 !important
+}
+
+.bg-subcategory_45 {
+  background-color: #ad53a1 !important
+}
+
+.border-subcategory_45 {
+  border-color: #ad53a1 !important
+}
+
+.border-top-subcategory_45 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #ad53a1 !important
+}
+
+.border-bottom-subcategory_45 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ad53a1 !important
+}
+
+.border-left-subcategory_45 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #ad53a1 !important
+}
+
+.border-right-subcategory_45 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #ad53a1 !important
+}
+
+.c-icon-subcategory_45::before {
+  font-family: "BBVA-Icons";
+  content: "î€";
+  color: #ad53a1;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_45::before {
+  background-color: #AD53A1
+}
+
+.fill-subcategory_45::after {
+  background-color: #AD53A1 !important;
+  fill: #AD53A1 !important
+}
+
+.stroke-subcategory_45 {
+  stroke: #ad53a1
+}
+
+.hover-bg-subcategory_45:hover {
+  background: #ad53a1 !important
+}
+
+.hover-text-subcategory_45:hover {
+  color: #ad53a1 !important
+}
+
+.text-subcategory_46 {
+  color: #e6d5a5 !important
+}
+
+.bg-subcategory_46 {
+  background-color: #e6d5a5 !important
+}
+
+.border-subcategory_46 {
+  border-color: #e6d5a5 !important
+}
+
+.border-top-subcategory_46 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #e6d5a5 !important
+}
+
+.border-bottom-subcategory_46 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e6d5a5 !important
+}
+
+.border-left-subcategory_46 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #e6d5a5 !important
+}
+
+.border-right-subcategory_46 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #e6d5a5 !important
+}
+
+.c-icon-subcategory_46::before {
+  font-family: "BBVA-Icons";
+  content: "î¤‹";
+  color: #e6d5a5;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_46::before {
+  background-color: #E6D5A5
+}
+
+.fill-subcategory_46::after {
+  background-color: #E6D5A5 !important;
+  fill: #E6D5A5 !important
+}
+
+.stroke-subcategory_46 {
+  stroke: #e6d5a5
+}
+
+.hover-bg-subcategory_46:hover {
+  background: #e6d5a5 !important
+}
+
+.hover-text-subcategory_46:hover {
+  color: #e6d5a5 !important
+}
+
+.text-subcategory_50 {
+  color: #48ae64 !important
+}
+
+.bg-subcategory_50 {
+  background-color: #48ae64 !important
+}
+
+.border-subcategory_50 {
+  border-color: #48ae64 !important
+}
+
+.border-top-subcategory_50 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #48ae64 !important
+}
+
+.border-bottom-subcategory_50 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #48ae64 !important
+}
+
+.border-left-subcategory_50 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #48ae64 !important
+}
+
+.border-right-subcategory_50 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #48ae64 !important
+}
+
+.c-icon-subcategory_50::before {
+  font-family: "BBVA-Icons";
+  content: "î¤Œ";
+  color: #48ae64;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_50::before {
+  background-color: #48AE64
+}
+
+.fill-subcategory_50::after {
+  background-color: #48AE64 !important;
+  fill: #48AE64 !important
+}
+
+.stroke-subcategory_50 {
+  stroke: #48ae64
+}
+
+.hover-bg-subcategory_50:hover {
+  background: #48ae64 !important
+}
+
+.hover-text-subcategory_50:hover {
+  color: #48ae64 !important
+}
+
+.text-subcategory_51 {
+  color: #1464a5 !important
+}
+
+.bg-subcategory_51 {
+  background-color: #1464a5 !important
+}
+
+.border-subcategory_51 {
+  border-color: #1464a5 !important
+}
+
+.border-top-subcategory_51 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #1464a5 !important
+}
+
+.border-bottom-subcategory_51 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #1464a5 !important
+}
+
+.border-left-subcategory_51 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #1464a5 !important
+}
+
+.border-right-subcategory_51 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #1464a5 !important
+}
+
+.c-icon-subcategory_51::before {
+  font-family: "BBVA-Icons";
+  content: "î§’";
+  color: #1464a5;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_51::before {
+  background-color: #1464A5
+}
+
+.fill-subcategory_51::after {
+  background-color: #1464A5 !important;
+  fill: #1464A5 !important
+}
+
+.stroke-subcategory_51 {
+  stroke: #1464a5
+}
+
+.hover-bg-subcategory_51:hover {
+  background: #1464a5 !important
+}
+
+.hover-text-subcategory_51:hover {
+  color: #1464a5 !important
+}
+
+.text-subcategory_78 {
+  color: #666 !important
+}
+
+.bg-subcategory_78 {
+  background-color: #666 !important
+}
+
+.border-subcategory_78 {
+  border-color: #666 !important
+}
+
+.border-top-subcategory_78 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #666 !important
+}
+
+.border-bottom-subcategory_78 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #666 !important
+}
+
+.border-left-subcategory_78 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #666 !important
+}
+
+.border-right-subcategory_78 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #666 !important
+}
+
+.c-icon-subcategory_78::before {
+  font-family: "BBVA-Icons";
+  content: "î§–";
+  color: #666;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_78::before {
+  background-color: #666666
+}
+
+.fill-subcategory_78::after {
+  background-color: #666666 !important;
+  fill: #666666 !important
+}
+
+.stroke-subcategory_78 {
+  stroke: #666
+}
+
+.hover-bg-subcategory_78:hover {
+  background: #666 !important
+}
+
+.hover-text-subcategory_78:hover {
+  color: #666 !important
+}
+
+.text-subcategory_9998 {
+  color: #d3d3d3 !important
+}
+
+.bg-subcategory_9998 {
+  background-color: #d3d3d3 !important
+}
+
+.border-subcategory_9998 {
+  border-color: #d3d3d3 !important
+}
+
+.border-top-subcategory_9998 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d3d3d3 !important
+}
+
+.border-bottom-subcategory_9998 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d3d3d3 !important
+}
+
+.border-left-subcategory_9998 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d3d3d3 !important
+}
+
+.border-right-subcategory_9998 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d3d3d3 !important
+}
+
+.c-icon-subcategory_9998::before {
+  font-family: "BBVA-Icons";
+  content: "î¥š";
+  color: #d3d3d3;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_9998::before {
+  background-color: lightgray
+}
+
+.fill-subcategory_9998::after {
+  background-color: lightgray !important;
+  fill: lightgray !important
+}
+
+.stroke-subcategory_9998 {
+  stroke: #d3d3d3
+}
+
+.hover-bg-subcategory_9998:hover {
+  background: #d3d3d3 !important
+}
+
+.hover-text-subcategory_9998:hover {
+  color: #d3d3d3 !important
+}
+
+.text-subcategory_4 {
+  color: #5bbeff !important
+}
+
+.bg-subcategory_4 {
+  background-color: #5bbeff !important
+}
+
+.border-subcategory_4 {
+  border-color: #5bbeff !important
+}
+
+.border-top-subcategory_4 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #5bbeff !important
+}
+
+.border-bottom-subcategory_4 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #5bbeff !important
+}
+
+.border-left-subcategory_4 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #5bbeff !important
+}
+
+.border-right-subcategory_4 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #5bbeff !important
+}
+
+.c-icon-subcategory_4::before {
+  font-family: "BBVA-Icons";
+  content: "î¤‡";
+  color: #5bbeff;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_4::before {
+  background-color: #5BBEFF
+}
+
+.fill-subcategory_4::after {
+  background-color: #5BBEFF !important;
+  fill: #5BBEFF !important
+}
+
+.stroke-subcategory_4 {
+  stroke: #5bbeff
+}
+
+.hover-bg-subcategory_4:hover {
+  background: #5bbeff !important
+}
+
+.hover-text-subcategory_4:hover {
+  color: #5bbeff !important
+}
+
+.text-subcategory_5 {
+  color: #1464a5 !important
+}
+
+.bg-subcategory_5 {
+  background-color: #1464a5 !important
+}
+
+.border-subcategory_5 {
+  border-color: #1464a5 !important
+}
+
+.border-top-subcategory_5 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #1464a5 !important
+}
+
+.border-bottom-subcategory_5 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #1464a5 !important
+}
+
+.border-left-subcategory_5 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #1464a5 !important
+}
+
+.border-right-subcategory_5 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #1464a5 !important
+}
+
+.c-icon-subcategory_5::before {
+  font-family: "BBVA-Icons";
+  content: "î¥‰";
+  color: #1464a5;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_5::before {
+  background-color: #1464A5
+}
+
+.fill-subcategory_5::after {
+  background-color: #1464A5 !important;
+  fill: #1464A5 !important
+}
+
+.stroke-subcategory_5 {
+  stroke: #1464a5
+}
+
+.hover-bg-subcategory_5:hover {
+  background: #1464a5 !important
+}
+
+.hover-text-subcategory_5:hover {
+  color: #1464a5 !important
+}
+
+.text-subcategory_6 {
+  color: #f59799 !important
+}
+
+.bg-subcategory_6 {
+  background-color: #f59799 !important
+}
+
+.border-subcategory_6 {
+  border-color: #f59799 !important
+}
+
+.border-top-subcategory_6 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f59799 !important
+}
+
+.border-bottom-subcategory_6 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f59799 !important
+}
+
+.border-left-subcategory_6 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f59799 !important
+}
+
+.border-right-subcategory_6 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f59799 !important
+}
+
+.c-icon-subcategory_6::before {
+  font-family: "BBVA-Icons";
+  content: "î¤";
+  color: #f59799;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_6::before {
+  background-color: #F59799
+}
+
+.fill-subcategory_6::after {
+  background-color: #F59799 !important;
+  fill: #F59799 !important
+}
+
+.stroke-subcategory_6 {
+  stroke: #f59799
+}
+
+.hover-bg-subcategory_6:hover {
+  background: #f59799 !important
+}
+
+.hover-text-subcategory_6:hover {
+  color: #f59799 !important
+}
+
+.text-subcategory_7 {
+  color: #f35e61 !important
+}
+
+.bg-subcategory_7 {
+  background-color: #f35e61 !important
+}
+
+.border-subcategory_7 {
+  border-color: #f35e61 !important
+}
+
+.border-top-subcategory_7 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f35e61 !important
+}
+
+.border-bottom-subcategory_7 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f35e61 !important
+}
+
+.border-left-subcategory_7 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f35e61 !important
+}
+
+.border-right-subcategory_7 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f35e61 !important
+}
+
+.c-icon-subcategory_7::before {
+  font-family: "BBVA-Icons";
+  content: "î¤Š";
+  color: #f35e61;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_7::before {
+  background-color: #F35E61
+}
+
+.fill-subcategory_7::after {
+  background-color: #F35E61 !important;
+  fill: #F35E61 !important
+}
+
+.stroke-subcategory_7 {
+  stroke: #f35e61
+}
+
+.hover-bg-subcategory_7:hover {
+  background: #f35e61 !important
+}
+
+.hover-text-subcategory_7:hover {
+  color: #f35e61 !important
+}
+
+.text-subcategory_8 {
+  color: #fade8e !important
+}
+
+.bg-subcategory_8 {
+  background-color: #fade8e !important
+}
+
+.border-subcategory_8 {
+  border-color: #fade8e !important
+}
+
+.border-top-subcategory_8 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #fade8e !important
+}
+
+.border-bottom-subcategory_8 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #fade8e !important
+}
+
+.border-left-subcategory_8 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fade8e !important
+}
+
+.border-right-subcategory_8 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #fade8e !important
+}
+
+.c-icon-subcategory_8::before {
+  font-family: "BBVA-Icons";
+  content: "î¤ˆ";
+  color: #fade8e;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_8::before {
+  background-color: #FADE8E
+}
+
+.fill-subcategory_8::after {
+  background-color: #FADE8E !important;
+  fill: #FADE8E !important
+}
+
+.stroke-subcategory_8 {
+  stroke: #fade8e
+}
+
+.hover-bg-subcategory_8:hover {
+  background: #fade8e !important
+}
+
+.hover-text-subcategory_8:hover {
+  color: #fade8e !important
+}
+
+.text-subcategory_9 {
+  color: #fab27f !important
+}
+
+.bg-subcategory_9 {
+  background-color: #fab27f !important
+}
+
+.border-subcategory_9 {
+  border-color: #fab27f !important
+}
+
+.border-top-subcategory_9 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #fab27f !important
+}
+
+.border-bottom-subcategory_9 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #fab27f !important
+}
+
+.border-left-subcategory_9 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fab27f !important
+}
+
+.border-right-subcategory_9 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #fab27f !important
+}
+
+.c-icon-subcategory_9::before {
+  font-family: "BBVA-Icons";
+  content: "î¥„";
+  color: #fab27f;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_9::before {
+  background-color: #FAB27F
+}
+
+.fill-subcategory_9::after {
+  background-color: #FAB27F !important;
+  fill: #FAB27F !important
+}
+
+.stroke-subcategory_9 {
+  stroke: #fab27f
+}
+
+.hover-bg-subcategory_9:hover {
+  background: #fab27f !important
+}
+
+.hover-text-subcategory_9:hover {
+  color: #fab27f !important
+}
+
+.text-subcategory_10 {
+  color: #02a5a5 !important
+}
+
+.bg-subcategory_10 {
+  background-color: #02a5a5 !important
+}
+
+.border-subcategory_10 {
+  border-color: #02a5a5 !important
+}
+
+.border-top-subcategory_10 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #02a5a5 !important
+}
+
+.border-bottom-subcategory_10 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #02a5a5 !important
+}
+
+.border-left-subcategory_10 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #02a5a5 !important
+}
+
+.border-right-subcategory_10 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #02a5a5 !important
+}
+
+.c-icon-subcategory_10::before {
+  font-family: "BBVA-Icons";
+  content: "î¤‰";
+  color: #02a5a5;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_10::before {
+  background-color: #02A5A5
+}
+
+.fill-subcategory_10::after {
+  background-color: #02A5A5 !important;
+  fill: #02A5A5 !important
+}
+
+.stroke-subcategory_10 {
+  stroke: #02a5a5
+}
+
+.hover-bg-subcategory_10:hover {
+  background: #02a5a5 !important
+}
+
+.hover-text-subcategory_10:hover {
+  color: #02a5a5 !important
+}
+
+.text-subcategory_11 {
+  color: #88ca9a !important
+}
+
+.bg-subcategory_11 {
+  background-color: #88ca9a !important
+}
+
+.border-subcategory_11 {
+  border-color: #88ca9a !important
+}
+
+.border-top-subcategory_11 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #88ca9a !important
+}
+
+.border-bottom-subcategory_11 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #88ca9a !important
+}
+
+.border-left-subcategory_11 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #88ca9a !important
+}
+
+.border-right-subcategory_11 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #88ca9a !important
+}
+
+.c-icon-subcategory_11::before {
+  font-family: "BBVA-Icons";
+  content: "î¤";
+  color: #88ca9a;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible
+}
+
+.subcategory_11::before {
+  background-color: #88CA9A
+}
+
+.fill-subcategory_11::after {
+  background-color: #88CA9A !important;
+  fill: #88CA9A !important
+}
+
+.stroke-subcategory_11 {
+  stroke: #88ca9a
+}
+
+.hover-bg-subcategory_11:hover {
+  background: #88ca9a !important
+}
+
+.hover-text-subcategory_11:hover {
+  color: #88ca9a !important
+}
+
+.text-invest_1 {
+  color: #5bbeff !important
+}
+
+.bg-invest_1 {
+  background-color: #5bbeff !important
+}
+
+.border-invest_1 {
+  border-color: #5bbeff !important
+}
+
+.border-top-invest_1 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #5bbeff !important
+}
+
+.border-bottom-invest_1 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #5bbeff !important
+}
+
+.border-left-invest_1 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #5bbeff !important
+}
+
+.border-right-invest_1 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #5bbeff !important
+}
+
+.invest_1::before {
+  background-color: #5BBEFF
+}
+
+.fill-invest_1::after {
+  background-color: #5BBEFF !important;
+  fill: #5BBEFF !important
+}
+
+.stroke-invest_1 {
+  stroke: #5bbeff
+}
+
+.hover-bg-invest_1:hover {
+  background: #5bbeff !important
+}
+
+.hover-text-invest_1:hover {
+  color: #5bbeff !important
+}
+
+.text-invest_2 {
+  color: #fade8e !important
+}
+
+.bg-invest_2 {
+  background-color: #fade8e !important
+}
+
+.border-invest_2 {
+  border-color: #fade8e !important
+}
+
+.border-top-invest_2 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #fade8e !important
+}
+
+.border-bottom-invest_2 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #fade8e !important
+}
+
+.border-left-invest_2 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fade8e !important
+}
+
+.border-right-invest_2 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #fade8e !important
+}
+
+.invest_2::before {
+  background-color: #FADE8E
+}
+
+.fill-invest_2::after {
+  background-color: #FADE8E !important;
+  fill: #FADE8E !important
+}
+
+.stroke-invest_2 {
+  stroke: #fade8e
+}
+
+.hover-bg-invest_2:hover {
+  background: #fade8e !important
+}
+
+.hover-text-invest_2:hover {
+  color: #fade8e !important
+}
+
+.text-invest_3 {
+  color: #88ca9a !important
+}
+
+.bg-invest_3 {
+  background-color: #88ca9a !important
+}
+
+.border-invest_3 {
+  border-color: #88ca9a !important
+}
+
+.border-top-invest_3 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #88ca9a !important
+}
+
+.border-bottom-invest_3 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #88ca9a !important
+}
+
+.border-left-invest_3 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #88ca9a !important
+}
+
+.border-right-invest_3 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #88ca9a !important
+}
+
+.invest_3::before {
+  background-color: #88CA9A
+}
+
+.fill-invest_3::after {
+  background-color: #88CA9A !important;
+  fill: #88CA9A !important
+}
+
+.stroke-invest_3 {
+  stroke: #88ca9a
+}
+
+.hover-bg-invest_3:hover {
+  background: #88ca9a !important
+}
+
+.hover-text-invest_3:hover {
+  color: #88ca9a !important
+}
+
+.text-invest_4 {
+  color: #f78be8 !important
+}
+
+.bg-invest_4 {
+  background-color: #f78be8 !important
+}
+
+.border-invest_4 {
+  border-color: #f78be8 !important
+}
+
+.border-top-invest_4 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f78be8 !important
+}
+
+.border-bottom-invest_4 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f78be8 !important
+}
+
+.border-left-invest_4 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f78be8 !important
+}
+
+.border-right-invest_4 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f78be8 !important
+}
+
+.invest_4::before {
+  background-color: #F78BE8
+}
+
+.fill-invest_4::after {
+  background-color: #F78BE8 !important;
+  fill: #F78BE8 !important
+}
+
+.stroke-invest_4 {
+  stroke: #f78be8
+}
+
+.hover-bg-invest_4:hover {
+  background: #f78be8 !important
+}
+
+.hover-text-invest_4:hover {
+  color: #f78be8 !important
+}
+
+.text-invest_5 {
+  color: #b6a8ee !important
+}
+
+.bg-invest_5 {
+  background-color: #b6a8ee !important
+}
+
+.border-invest_5 {
+  border-color: #b6a8ee !important
+}
+
+.border-top-invest_5 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #b6a8ee !important
+}
+
+.border-bottom-invest_5 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #b6a8ee !important
+}
+
+.border-left-invest_5 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #b6a8ee !important
+}
+
+.border-right-invest_5 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #b6a8ee !important
+}
+
+.invest_5::before {
+  background-color: #B6A8EE
+}
+
+.fill-invest_5::after {
+  background-color: #B6A8EE !important;
+  fill: #B6A8EE !important
+}
+
+.stroke-invest_5 {
+  stroke: #b6a8ee
+}
+
+.hover-bg-invest_5:hover {
+  background: #b6a8ee !important
+}
+
+.hover-text-invest_5:hover {
+  color: #b6a8ee !important
+}
+
+.text-invest_6 {
+  color: #f59799 !important
+}
+
+.bg-invest_6 {
+  background-color: #f59799 !important
+}
+
+.border-invest_6 {
+  border-color: #f59799 !important
+}
+
+.border-top-invest_6 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #f59799 !important
+}
+
+.border-bottom-invest_6 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #f59799 !important
+}
+
+.border-left-invest_6 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #f59799 !important
+}
+
+.border-right-invest_6 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f59799 !important
+}
+
+.invest_6::before {
+  background-color: #F59799
+}
+
+.fill-invest_6::after {
+  background-color: #F59799 !important;
+  fill: #F59799 !important
+}
+
+.stroke-invest_6 {
+  stroke: #f59799
+}
+
+.hover-bg-invest_6:hover {
+  background: #f59799 !important
+}
+
+.hover-text-invest_6:hover {
+  color: #f59799 !important
+}
+
+.text-invest-color-1 {
+  color: #e77d8e !important
+}
+
+.bg-invest-color-1 {
+  background-color: #e77d8e !important
+}
+
+.border-invest-color-1 {
+  border-color: #e77d8e !important
+}
+
+.border-top-invest-color-1 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #e77d8e !important
+}
+
+.border-bottom-invest-color-1 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e77d8e !important
+}
+
+.border-left-invest-color-1 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #e77d8e !important
+}
+
+.border-right-invest-color-1 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #e77d8e !important
+}
+
+.invest-color-1::before {
+  background-color: #E77D8E
+}
+
+.fill-invest-color-1::after {
+  background-color: #E77D8E !important;
+  fill: #E77D8E !important
+}
+
+.stroke-invest-color-1 {
+  stroke: #e77d8e
+}
+
+.hover-bg-invest-color-1:hover {
+  background: #e77d8e !important
+}
+
+.hover-text-invest-color-1:hover {
+  color: #e77d8e !important
+}
+
+.text-invest-color-2 {
+  color: #fade8e !important
+}
+
+.bg-invest-color-2 {
+  background-color: #fade8e !important
+}
+
+.border-invest-color-2 {
+  border-color: #fade8e !important
+}
+
+.border-top-invest-color-2 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #fade8e !important
+}
+
+.border-bottom-invest-color-2 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #fade8e !important
+}
+
+.border-left-invest-color-2 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fade8e !important
+}
+
+.border-right-invest-color-2 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #fade8e !important
+}
+
+.invest-color-2::before {
+  background-color: #FADE8E
+}
+
+.fill-invest-color-2::after {
+  background-color: #FADE8E !important;
+  fill: #FADE8E !important
+}
+
+.stroke-invest-color-2 {
+  stroke: #fade8e
+}
+
+.hover-bg-invest-color-2:hover {
+  background: #fade8e !important
+}
+
+.hover-text-invest-color-2:hover {
+  color: #fade8e !important
+}
+
+.text-invest-color-3 {
+  color: #5ac4c4 !important
+}
+
+.bg-invest-color-3 {
+  background-color: #5ac4c4 !important
+}
+
+.border-invest-color-3 {
+  border-color: #5ac4c4 !important
+}
+
+.border-top-invest-color-3 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #5ac4c4 !important
+}
+
+.border-bottom-invest-color-3 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #5ac4c4 !important
+}
+
+.border-left-invest-color-3 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #5ac4c4 !important
+}
+
+.border-right-invest-color-3 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #5ac4c4 !important
+}
+
+.invest-color-3::before {
+  background-color: #5AC4C4
+}
+
+.fill-invest-color-3::after {
+  background-color: #5AC4C4 !important;
+  fill: #5AC4C4 !important
+}
+
+.stroke-invest-color-3 {
+  stroke: #5ac4c4
+}
+
+.hover-bg-invest-color-3:hover {
+  background: #5ac4c4 !important
+}
+
+.hover-text-invest-color-3:hover {
+  color: #5ac4c4 !important
+}
+
+.text-invest-color-4 {
+  color: #49a5e6 !important
+}
+
+.bg-invest-color-4 {
+  background-color: #49a5e6 !important
+}
+
+.border-invest-color-4 {
+  border-color: #49a5e6 !important
+}
+
+.border-top-invest-color-4 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #49a5e6 !important
+}
+
+.border-bottom-invest-color-4 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #49a5e6 !important
+}
+
+.border-left-invest-color-4 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #49a5e6 !important
+}
+
+.border-right-invest-color-4 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #49a5e6 !important
+}
+
+.invest-color-4::before {
+  background-color: #49A5E6
+}
+
+.fill-invest-color-4::after {
+  background-color: #49A5E6 !important;
+  fill: #49A5E6 !important
+}
+
+.stroke-invest-color-4 {
+  stroke: #49a5e6
+}
+
+.hover-bg-invest-color-4:hover {
+  background: #49a5e6 !important
+}
+
+.hover-text-invest-color-4:hover {
+  color: #49a5e6 !important
+}
+
+.text-invest-color-5 {
+  color: #1464a5 !important
+}
+
+.bg-invest-color-5 {
+  background-color: #1464a5 !important
+}
+
+.border-invest-color-5 {
+  border-color: #1464a5 !important
+}
+
+.border-top-invest-color-5 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #1464a5 !important
+}
+
+.border-bottom-invest-color-5 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #1464a5 !important
+}
+
+.border-left-invest-color-5 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #1464a5 !important
+}
+
+.border-right-invest-color-5 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #1464a5 !important
+}
+
+.invest-color-5::before {
+  background-color: #1464A5
+}
+
+.fill-invest-color-5::after {
+  background-color: #1464A5 !important;
+  fill: #1464A5 !important
+}
+
+.stroke-invest-color-5 {
+  stroke: #1464a5
+}
+
+.hover-bg-invest-color-5:hover {
+  background: #1464a5 !important
+}
+
+.hover-text-invest-color-5:hover {
+  color: #1464a5 !important
+}
+
+.text-invest-color-6 {
+  color: #d3d3d3 !important
+}
+
+.bg-invest-color-6 {
+  background-color: #d3d3d3 !important
+}
+
+.border-invest-color-6 {
+  border-color: #d3d3d3 !important
+}
+
+.border-top-invest-color-6 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #d3d3d3 !important
+}
+
+.border-bottom-invest-color-6 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d3d3d3 !important
+}
+
+.border-left-invest-color-6 {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d3d3d3 !important
+}
+
+.border-right-invest-color-6 {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #d3d3d3 !important
+}
+
+.invest-color-6::before {
+  background-color: lightgray
+}
+
+.fill-invest-color-6::after {
+  background-color: lightgray !important;
+  fill: lightgray !important
+}
+
+.stroke-invest-color-6 {
+  stroke: #d3d3d3
+}
+
+.hover-bg-invest-color-6:hover {
+  background: #d3d3d3 !important
+}
+
+.hover-text-invest-color-6:hover {
+  color: #d3d3d3 !important
+}
+
+body {
+  height: 88px
+}
+
+.reset-c {
+  box-sizing: border-box;
+  color: #121212;
+  line-height: normal
+}
+
+.reset-c *,
+.reset-c *::before,
+.reset-c *::after {
+  box-sizing: inherit;
+  outline: none
+}
+
+.reset-c div::before,
+.reset-c main::before,
+.reset-c article::before,
+.reset-c section::before,
+.reset-c nav::before,
+.reset-c header::before,
+.reset-c footer::before,
+.reset-c div::after,
+.reset-c main::after,
+.reset-c article::after,
+.reset-c section::after,
+.reset-c nav::after,
+.reset-c header::after,
+.reset-c footer::after {
+  content: normal;
+  visibility: visible;
+  overflow: visible
+}
+
+.reset-c a,
+.reset-c [role=link] {
+  text-decoration: none
+}
+
+.reset-c [class*=c-icon]::before {
+  font-family: "BBVA-Icons" !important
+}
+
+.reset-c [class*=icon2]::before {
+  font-family: "Icon-BBVA-UNIFY" !important
+}
+
+.reset-c .reset-c-revert {
+  box-sizing: content-box
+}
+
+.reset-c .reset-c-revert .clearfix:before,
+.reset-c .reset-c-revert div:before,
+.reset-c .reset-c-revert article:before,
+.reset-c .reset-c-revert section:before,
+.reset-c .reset-c-revert nav:before,
+.reset-c .reset-c-revert header:before,
+.reset-c .reset-c-revert footer:before,
+.reset-c .reset-c-revert .clearfix:after,
+.reset-c .reset-c-revert div:after,
+.reset-c .reset-c-revert article:after,
+.reset-c .reset-c-revert section:after,
+.reset-c .reset-c-revert nav:after,
+.reset-c .reset-c-revert header:after,
+.reset-c .reset-c-revert footer:after {
+  content: " ";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0
+}
+
+.reset-c .reset-c-revert .clearfix:after,
+.reset-c .reset-c-revert div:after,
+.reset-c .reset-c-revert article:after,
+.reset-c .reset-c-revert section:after,
+.reset-c .reset-c-revert nav:after,
+.reset-c .reset-c-revert header:after,
+.reset-c .reset-c-revert footer:after {
+  clear: both
+}
+
+.reset-c .reset-c-revert *,
+.reset-c .reset-c-revert *::before,
+.reset-c .reset-c-revert *::after {
+  box-sizing: inherit;
+  outline: none
+}
+
+.reset-c .reset-c-revert .flex {
+  box-sizing: border-box
+}
+
+.reset-net {
+  height: 100%
+}
+
+.reset-net body {
+  padding-bottom: 28rem;
+  min-height: 100% !important;
+  height: auto
+}
+
+.reset-net .c-buscadores-wally .resultsPane {
+  top: 120px;
+  right: 0
+}
+
+.reset-net .c-buscadores-wally .fullResults {
+  top: 115px
+}
+
+.reset-net #esqueleto.cabeceraFixed {
+  padding-top: 110px
+}
+
+.new-layout {
+  height: 100%
+}
+
+.new-layout body {
+  padding-bottom: 0
+}
+
+.new-layout body.tabletCapabilities .ui-widget-overlay {
+  position: fixed !important
+}
+
+.new-layout .c-buscadores-wally .resultsPane {
+  top: 5px;
+  right: 0
+}
+
+.new-layout .c-buscadores-wally .fullResults {
+  top: 5px
+}
+
+.new-layout #fullResultsTranslucent {
+  top: 110px !important
+}
+
+.new-layout #esqueleto.cabeceraFixed {
+  padding-top: 0
+}
+
+.new-layout .mo-masthead.private-c {
+  top: 0;
+  left: 0
+}
+
+.new-layout #contenido {
+  padding: 0
+}
+
+.new-layout #contenido.container_24 {
+  padding: 4em 0 2em
+}
+
+.new-layout [data-addon=bbva-initial-greeting-and-widgets].hidden+[data-addon=bbva-my-opportunities] .m-alert--one-click,
+.new-layout [data-addon=bbva-initial-greeting-and-widgets].hidden+[data-addon=bbva-my-opportunities] .m-one-click,
+.new-layout [data-addon=bbva-initial-greeting-and-widgets].hidden+[data-addon=bbva-my-opportunities] .m-one-click--no-skewed {
+  margin-top: 20px
+}
+
+.reset-service-content strong {
+  font-family: "BBVA Web Medium BS", sans-serif !important
+}
+
+@font-face {
+  font-family: "BBVA Web Bold BS";
+  src: url("fonts/BentonSansBBVA-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: "BBVA Web Book BS";
+  src: url("fonts/BentonSansBBVA-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: "BBVA Web Book Italic BS";
+  src: url("fonts/BentonSansBBVA-BookItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: "BBVA Web Light BS";
+  src: url("fonts/BentonSansBBVA-Light.woff2?v=b6efddac") format("woff2"), url("fonts/BentonSansBBVA-Light.woff?v=f8efa444") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: "BBVA Web Medium BS";
+  src: url("fonts/BentonSansBBVA-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: "BBVA Web Medium Italic BS";
+  src: url("fonts/BentonSansBBVA-MediumItalic.woff2?v=078a6898") format("woff2"), url("fonts/BentonSansBBVA-MediumItalic.woff?v=c6e99240") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: "BBVA Tiempos Regular";
+  src: url("fonts/TiemposTextWeb-Regular.woff2?v=4780f36b") format("woff2"), url("fonts/TiemposTextWeb-Regular.woff?v=490d864e") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: "BBVA Tiempos Regular Italic";
+  src: url("fonts/TiemposTextWeb-RegularItalic.woff2?v=9858cc96") format("woff2"), url("fonts/TiemposTextWeb-RegularItalic.woff?v=7e81d894") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: "BBVA-Icons";
+  src: url("fonts/coronita-icons-v3.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+section,
+summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline
+}
+
+html {
+  font-size: 62.5%
+}
+
+body {
+  font-size: 100%;
+  background-color: #fff;
+  font-family: "BBVA Web Book BS", sans-serif;
+  color: #1973b8
+}
+
+ul {
+  list-style: none
+}
+
+.o-media {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column
+}
+
+.o-media--item-left {
+  flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between
+}
+
+.o-media--item-left .o-media__body {
+  flex: 1 0 0;
+  -ms-flex: 1 0 0px;
+  -webkit-flex: 1 0 0
+}
+
+.o-media__img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: block
+}
+
+.o-media__body {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column
+}
+
+.o-media__footer {
+  margin-top: auto
+}
+
+.c-icon-place,
+.c-icon-info,
+.c-icon-hide,
+.c-icon-visualize,
+.c-icon-forward,
+.c-icon-alarm,
+.c-icon-alert {
+  font-family: "BBVA-Icons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.c-icon-place::before,
+.c-icon-info::before,
+.c-icon-hide::before,
+.c-icon-visualize::before,
+.c-icon-forward::before,
+.c-icon-alarm::before,
+.c-icon-alert::before {
+  font-family: "BBVA-Icons" !important
+}
+
+.c-icon--xxsmall {
+  font-size: .8rem
+}
+
+.c-icon--xsmall {
+  font-size: 1.6rem
+}
+
+.c-icon--small {
+  font-size: 2.4rem
+}
+
+.c-icon--medium {
+  font-size: 3.2rem
+}
+
+.c-icon-alert::before {
+  content: "\e909"
+}
+
+.c-icon-alarm::before {
+  content: "î¥“"
+}
+
+.c-icon-forward::before {
+  content: "î¤™"
+}
+
+.c-icon-visualize::before {
+  content: "î¦³"
+}
+
+.c-icon-hide:before {
+  content: "î¦¡"
+}
+
+.c-icon-info:before {
+  content: "î¥¤"
+}
+
+.c-icon-place:before {
+  content: "î¤ª"
+}
+
+.c-bullet--blue-medium {
+  position: relative;
+  padding-left: 4.8rem
+}
+
+.c-bullet--blue-medium::before {
+  font-family: "BBVA-Icons" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: normal;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  content: "\e900";
+  color: #49a5e6;
+  left: 18px;
+  position: absolute;
+  font-size: 25px;
+  width: 12px;
+  height: 15px;
+  top: 7px;
+  transform: rotate(-90deg);
+  
+}
+
+.c-bullet--blue-medium::before {
+  color: #1973b8
+}
+
+.c-image--small {
+  width: 2.4rem
+}
+
+.c-micro-illustration--xxsmall {
+  width: 4.8rem
+}
+
+.c-bodycopy {
+  color: #666;
+  font-size: 1.5rem;
+  font-family: "BBVA Web Book BS", sans-serif;
+  line-height: 2.4rem
+}
+
+.c-bodycopy--highlighted {
+  color: #121212;
+  font-size: 2.2rem;
+  line-height: 3.2rem
+}
+
+.c-bodycopy--lighten {
+  color: #fff
+}
+
+.c-bodycopy--darken {
+  color: #121212
+}
+
+.c-bodycopy--bold {
+  color: #121212;
+  font-family: "BBVA Web Medium BS", sans-serif
+}
+
+.c-link {
+  display: inline-flex;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  cursor: pointer;
+  color: #1973b8;
+  position: relative;
+  text-decoration: none
+}
+
+.c-link[aria-disabled=true] {
+  color: #bdbdbd;
+  cursor: default
+}
+
+.c-link:hover {
+  color: #1464a5
+}
+
+.c-link:focus {
+  outline: 0
+}
+
+.c-link:focus::before {
+  content: "";
+  position: absolute;
+  top: -0.4rem;
+  left: -0.4rem;
+  border: 1px solid #1973b8;
+  height: calc(100% + .8rem);
+  width: calc(100% + .8rem)
+}
+
+.c-link__icon {
+  margin-right: .8rem
+}
+
+.c-link--underlined .c-link__text {
+  text-decoration: underline
+}
+
+.c-link--icon-right {
+  display: inline-flex;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex
+}
+
+.c-link--icon-right .c-link__text {
+  order: 1;
+  -ms-flex-order: 1;
+  -webkit-order: 1
+}
+
+.c-link--icon-right .c-link__icon {
+  order: 2;
+  -ms-flex-order: 2;
+  -webkit-order: 2;
+  margin-right: 0;
+  margin-left: .8rem
+}
+
+.c-link-headline {
+  color: #1973b8;
+  font-size: 1.5rem;
+  font-family: "BBVA Web Medium BS", sans-serif;
+  line-height: 2.4rem;
+  text-decoration: none;
+  cursor: pointer
+}
+
+.c-link-headline:hover {
+  color: #1464a5
+}
+
+.c-link-headline.is-disabled,
+.c-link-headline.is-disabled:hover,
+.c-link-headline.is-disabled:focus {
+  color: #bdbdbd;
+  cursor: default
+}
+
+.c-link-headline:focus {
+  outline: 0
+}
+
+.c-link-headline:focus::before {
+  content: "";
+  position: absolute;
+  top: -0.4rem;
+  left: -0.4rem;
+  border: 1px solid #1973b8;
+  height: calc(100% + .8rem);
+  width: calc(100% + .8rem)
+}
+
+.c-link-headline--light {
+  color: #fff
+}
+
+.c-link-headline--light:hover {
+  color: #5bbeff
+}
+
+.c-link-headline--light:focus {
+  color: #5bbeff
+}
+
+.c-link-headline--light:focus::before {
+  border-color: #5bbeff
+}
+
+.c-link-headline--medium {
+  color: #5bbeff
+}
+
+.c-link-headline--medium:hover {
+  color: #fff
+}
+
+.c-link-headline--medium:focus {
+  color: #fff
+}
+
+.c-link-headline--medium:focus::before {
+  border-color: #fff
+}
+
+.c-divider {
+  position: relative;
+  height: 4.8rem;
+  margin: 0;
+  border: none
+}
+
+.c-divider::after {
+  content: "";
+  visibility: visible;
+  background-color: #bdbdbd;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 1px;
+  width: 100%
+}
+
+.c-divider--vertical {
+  height: auto;
+  width: 8.8rem
+}
+
+.c-divider--vertical::after {
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 1px
+}
+
+.c-button--secondary {
+  display: inline-flex;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  cursor: pointer;
+  background-color: #1973b8;
+  border: none;
+  border-radius: 1px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "BBVA Web Medium BS", sans-serif;
+  padding: 0 3.2rem;
+  height: 5.6rem;
+  min-width: 16.8rem;
+  text-align: center;
+  text-decoration: none
+}
+
+.c-button--secondary:hover,
+.c-button--secondary.c-button--active {
+  background-color: #1464a5
+}
+
+.c-button--secondary:focus {
+  outline: 0;
+  border: 0;
+  box-shadow: inset 0 0 0 4px #1973b8, inset 0 0 0 5px #fff
+}
+
+.c-button--secondary:focus:hover {
+  box-shadow: inset 0 0 0 4px #1464a5, inset 0 0 0 5px #fff
+}
+
+.c-button--secondary.is-disabled,
+.c-button--secondary.is-disabled:hover,
+.c-button--secondary.is-disabled:focus {
+  background-color: #e9e9e9;
+  color: #bdbdbd;
+  cursor: default;
+  outline: 0;
+  border-color: #e9e9e9;
+  box-shadow: none
+}
+
+.c-button--secondary.is-disabled:focus:hover {
+  box-shadow: none
+}
+
+.c-button__text {
+  width: 100%
+}
+
+.c-input-box {
+  display: block;
+  position: relative
+}
+
+.c-input-box__label {
+  position: absolute;
+  color: #666;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-family: "BBVA Web Book BS", sans-serif;
+  left: 1.6rem;
+  top: 1.2rem;
+  pointer-events: none;
+  z-index: 1;
+  transition: .2s ease all;
+  -ms-transition: .2s ease all;
+  -webkit-transition: .2s ease all
+}
+
+.c-input-box__label.is-floated {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #666;
+  top: .8rem
+}
+
+.is-invalid .c-input-box__label {
+  color: #b92a45
+}
+
+.is-disabled .c-input-box__label {
+  color: #bdbdbd
+}
+
+.c-input-box__input {
+  display: block;
+  background-color: #f4f4f4;
+  border: none;
+  color: #121212;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-family: "BBVA Web Book BS", sans-serif;
+  border-radius: 1px;
+  border-bottom: 1px solid #666;
+  padding: 2.2rem 1.6rem .1rem;
+  width: 100%
+}
+
+.is-invalid .c-input-box__input {
+  background-color: #fcdfdf;
+  border-bottom-color: #b92a45;
+  color: #121212
+}
+
+.is-disabled .c-input-box__input {
+  color: #bdbdbd;
+  border-bottom-color: #bdbdbd
+}
+
+.c-input-box__input:focus {
+  outline: 0;
+  box-shadow: 0 0 5px #1973b8
+}
+
+.c-input-box__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(100%);
+  font-size: 1.6rem;
+  color: #1973b8;
+  pointer-events: none;
+  margin-right: .8rem
+}
+
+.is-invalid .c-input-box__icon {
+  color: #b92a45
+}
+
+.c-input-box__description {
+  display: inline-block;
+  padding: 0 .8rem 0 1.6rem;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: "BBVA Web Book BS", sans-serif;
+  color: #666
+}
+
+.is-disabled .c-input-box__description {
+  color: #bdbdbd
+}
+
+.c-input-box__description[aria-hidden=true] {
+  display: none
+}
+
+.c-input-box__description-text {
+  display: inline-block;
+  margin-top: .8rem
+}
+
+.c-input-box__label--invalid {
+  color: #b92a45
+}
+
+.c-input-box__input--invalid {
+  background-color: #fcdfdf;
+  border-bottom-color: #b92a45;
+  color: #121212
+}
+
+.m-input-password {
+  position: relative
+}
+
+.m-input-password__button {
+  color: #1973b8;
+  cursor: pointer;
+  position: absolute;
+  right: 1.6rem;
+  top: 1.2rem;
+  height: 2.4rem;
+  width: 2.4rem;
+  border: none;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0)
+}
+
+.is-disabled .m-input-password__button,
+.is-readonly .m-input-password__button {
+  cursor: default;
+  opacity: .3;
+  pointer-events: none
+}
+
+.is-invalid .m-input-password__button {
+  color: #b92a45
+}
+
+.is-invalid .m-input-password__button:focus::before {
+  border-color: #b92a45
+}
+
+.m-input-password__button:focus {
+  outline: none
+}
+
+.m-input-password__button:focus::before {
+  content: "";
+  position: absolute;
+  top: -0.4rem;
+  left: -0.4rem;
+  border: 1px solid #1973b8;
+  height: calc(100% + .8rem);
+  width: calc(100% + .8rem)
+}
+
+.m-validation__error {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-family: "BBVA Web Book BS", sans-serif;
+  color: #121212;
+  margin-top: .8rem
+}
+
+.m-validation__icon {
+  font-size: 1.6rem;
+  color: #b92a45;
+  margin-right: .8rem
+}
+
+.m-alert {
+  border-radius: 1px;
+  position: relative;
+  background-color: #f4f4f4
+}
+
+.m-alert__icon {
+  color: #bdbdbd;
+  font-size: 2.4rem
+}
+
+.m-alert__item {
+  padding-top: 2.4rem
+}
+
+.m-alert--browser .m-alert__item {
+  padding-top: 1.6rem;
+  padding-left: 1.6rem
+}
+
+.m-alert__body {
+  padding: 2.4rem 2.4rem 2.4rem 4.8rem
+}
+
+.m-alert--browser .m-alert__body {
+  padding: 1.6rem
+}
+
+.m-alert__icon,
+.o-heading__icon {
+  position: absolute;
+  top: 2.4rem;
+  left: 1.6rem
+}
+
+.m-alert--error {
+  background-color: #fcdfdf
+}
+
+.m-alert--error .m-alert__icon {
+  color: #b92a45
+}
+
+.m-alert--important {
+  background-color: #f3ebd5
+}
+
+.m-alert--important .m-alert__icon {
+  color: #d8be75
+}
+
+.m-alert--extra-info,
+.m-alert--browser {
+  background-color: #d4edfc
+}
+
+.m-alert--extra-info .m-alert__icon,
+.m-alert--browser .m-alert__icon {
+  color: #5bbeff
+}
+
+.m-login {
+  padding-bottom: 4rem
+}
+
+.m-login__content {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center
+}
+
+.m-login__wrapper {
+  width: 80.8rem;
+  margin: 0 auto
+}
+
+.m-login__main {
+  margin-right: 3.2rem;
+  width: 36rem
+}
+
+.wrapper .m-login__main {
+  margin-right: 0
+}
+
+.m-login__button {
+  margin-right: 2.4rem
+}
+
+.m-login__aside {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  padding: 2.4rem;
+  background-color: #004481;
+  width: 36rem
+}
+
+.clearfix::before,
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both
+}
+
+.full-width {
+  width: 100%
+}
+
+.flex {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex
+}
+
+.flex-column {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column
+}
+
+.flex-align-center {
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center
+}
+
+.flex-align-start {
+  align-items: flex-start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start
+}
+
+.flex-justify-start {
+  justify-content: flex-start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start
+}
+
+.flex-space-self-all {
+  flex: 1 0 0;
+  -ms-flex: 1 0 0px;
+  -webkit-flex: 1 0 0
+}
+
+.flex-space-self-auto {
+  flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  -webkit-flex: 1 0 auto
+}
+
+.margin-top-auto {
+  margin-top: auto
+}
+
+.margin-bottom-xxsmall {
+  margin-bottom: .8rem
+}
+
+.margin-bottom-xsmall {
+  margin-bottom: 1.6rem
+}
+
+.margin-bottom-small {
+  margin-bottom: 2.4rem
+}
+
+.margin-bottom-medium {
+  margin-bottom: 3.2rem
+}
+
+.margin-bottom-large {
+  margin-bottom: 4rem
+}
+
+.margin-right-xxsmall {
+  margin-right: .8rem
+}
+
+.margin-right-small {
+  margin-right: 2.4rem
+}
+
+.margin-left-xsmall {
+  margin-left: 1.6rem
+}
+
+.margin-right-xsmall {
+  margin-right: 1.6rem
+}
+
+.margin-top-xxlarge {
+  margin-top: 5.6rem
+}
+
+.margin-bottom-negative-large {
+  margin-bottom: -4rem
+}
+
+.padding-xxlarge {
+  padding: 5.6rem
+}
+
+.text_18 {
+  font-size: 1.8rem
+}
+
+.text-size-inherit {
+  font-size: inherit
+}
+
+.text-medium {
+  font-family: "BBVA Web Medium BS", sans-serif
+}
+
+.text-book-italic {
+  font-family: "BBVA Web Book Italic BS", sans-serif
+}
+
+.width-xxmega {
+  width: 52.8rem
+}
+
+.width-xxlarge {
+  width: 28rem
+}
+
+.login-container {
+  width: 75.2rem;
+  margin: 0 auto
+}
+
+.m-login__content {
+  margin-top: 6rem;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mb1 {
+  margin-bottom: 1.5rem;
+}
+
+.mt1 {
+  margin-top: 1.5rem;
+}
+.input__field--yoshiko {
+  height: 5.5rem;
+}
+
+.select-coronita {
+  height: 5.5rem;
+}
+
+.input--yoshiko.validation-invalid {
+  border-bottom-color: #b92a45;
+}
+
+input:not([type=radio]):not([type=checkbox]).validation-invalid {
+    background-color: #fcdfdf;
+    border-bottom-color: #b92a45;
+}
+
+.input__label--yoshiko.validation-invalid {
+  color: #b92a45;
+}
+
+.alert {
+  display: none;
+}
+
+.alert.validation-invalid {
+  display: flex;
+}
+
+.margin-bottom-small {
+  margin-bottom: 0;
+}
+
+.text_18 {
+  font-size: 2rem;
+}
+
+@media (max-width: 50rem) {
+  .m-login__content {
+    display: block;
+    margin: auto;
+    margin-top: 6rem;
+  }
+
+  .m-login__main {
+    margin: auto;
+  }
+
+  .m-login__aside {
+    margin: 2rem auto;
+  }
+}

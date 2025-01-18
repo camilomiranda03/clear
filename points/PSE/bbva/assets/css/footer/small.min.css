@@ -1,0 +1,21 @@
+:root{--footer-background-color:#072146}
+.dark-theme{--footer-background-color:#132330}
+.footer{position:relative;zoom:1;width:00%;display:block}
+.footer::after,.footer::before{content:' ';display:block;height:0;width:0;overflow:hidden}
+.footer::after{clear:both}
+.footer__base{background-color:var(--footer-background-color,#072146);padding:20px 24px 30px;text-align:center}
+.keyboard-focus .footer__base a:focus,.keyboard-focus .footer__base button:focus{outline:1px solid #fff;outline-offset:4px}
+.footer__logo{height:40px;text-align:center;display:inline-block}
+.footer__logo__link{display:inline-block}
+.footer__logo__link img{min-width:80px;width:auto}
+.footer__list{text-align:center;margin-top:40px}
+.footer__list>.link__content{display:inline-block}
+.footer__list>.footer__secondarylogo__link{display:none}
+.footer__list .link a{color:#5bbeff;padding:8px;margin:0;display:inline-block;text-align:center}
+.footer__list .link a:hover{color:#fff}
+.footer__list .link__content{color:#5bbeff;padding:8px;margin:0}
+.footer__list .link__content:hover{color:#fff}
+.footer__optional .link__content{display:none;color:#5bbeff}
+.footer__optional .link__content:hover{color:#fff}
+.footer__optional .footer__secondarylogo__link{height:38px}
+.footer__optional .footer__secondarylogo__link img{max-height:36px;display:inline-block;width:auto;min-width:220px;margin:24px auto 0}

